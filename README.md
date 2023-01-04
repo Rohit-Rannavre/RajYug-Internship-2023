@@ -1,7 +1,9 @@
 <img align="right" src="https://c.smartrecruiters.com/sr-company-logo-prod-dc5/5e26eb2db439962cf843d9e8/huge?r=s3-eu-central-1&_1579609112432" width="200">
 
 # :star: RajYug Internship [2023]
-![](https://img.shields.io/badge/tools-python%20%7C%20rasa%20%7C%20vscode-orange?style=for-the-badge)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![](https://img.shields.io/badge/Rasa-5A17EE.svg?style=for-the-badge&logo=Rasa&logoColor=white)
+![](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white)
 
 This repository contains the projects I have done as an AI/ML intern with [RajYug IT Solutions Pvt. Ltd.](https://in.linkedin.com/company/rajyug-solutions?original_referer=https%3A%2F%2Fwww.google.com%2F)
 
