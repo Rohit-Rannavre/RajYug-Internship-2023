@@ -3,13 +3,27 @@
 # :star: RajYug Internship [2023]
 ![](https://img.shields.io/badge/tools-python%20%7C%20rasa%20%7C%20vscode-orange?style=for-the-badge)
 
-This repository contains the projects I did as an AI/ML intern with [RajYug IT Solutions Pvt. Ltd.](https://in.linkedin.com/company/rajyug-solutions?original_referer=https%3A%2F%2Fwww.google.com%2F)
+This repository contains the projects I have done as an AI/ML intern with [RajYug IT Solutions Pvt. Ltd.](https://in.linkedin.com/company/rajyug-solutions?original_referer=https%3A%2F%2Fwww.google.com%2F)
 
 <br>
 
 <img align="right" src="https://www.insegment.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif" width=250>
 
 ### :zap: RASA Chatbot on Health Remedies for Anxiety
+
+> [Questions & Answers](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20on%20Health%20Remedies%20for%20Anxiety/Q%26A%20for%20Anxiety.pdf)
+
+> [Model]()
+
+***
+
+### :zap: RASA Chatbot on Health Remedies for Malaria
+
+> Questions & Answers
+
+> Model
+
+***
 
 <br>
 
