@@ -13,7 +13,7 @@ This repository contains the projects I have done as an AI/ML intern with [RajYu
 
 > [Questions & Answers](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20on%20Health%20Remedies%20for%20Anxiety/Q%26A%20for%20Anxiety.pdf)
 
-> [Model]()
+> [Model](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20on%20Health%20Remedies%20for%20Anxiety/models/final-model.tar.gz)
 
 ***
 
