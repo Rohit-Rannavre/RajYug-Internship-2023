@@ -28,7 +28,7 @@ This repository contains the projects I have done as an AI/ML intern with [RajYu
 > Datasources:
  
  - [WHO](https://apps.who.int/iris/bitstream/handle/10665/205088/B5046.pdf?sequence=1)
- - [Pharmeasy](https://pharmeasy.in/blog/home-remedies-for-malaria-by-dr-siddharth-gupta/)
+ - [PharmEasy](https://pharmeasy.in/blog/home-remedies-for-malaria-by-dr-siddharth-gupta/)
 
 ***
 
