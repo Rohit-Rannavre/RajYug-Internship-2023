@@ -21,7 +21,7 @@ This repository contains the projects I have done as an AI/ML intern with [RajYu
 
 ### :zap: RASA Chatbot on Health Remedies for Malaria
 
-> Questions & Answers
+> [Questions & Answers](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20on%20Health%20Remedies%20for%20Malaria/Q%26A%20for%20Malaria.pdf)
 
 > Model
 
