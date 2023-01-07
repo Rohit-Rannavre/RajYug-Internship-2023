@@ -1,0 +1,421 @@
+version: "3.1"
+
+stories:
+
+- story: path_intro
+  steps:
+  - intent: anxiety_intro
+  - action: utter_intro
+
+- story: path_bad
+  steps:
+  - intent: anxiety_bad
+  - action: utter_bad
+
+- story: path_symptoms
+  steps:
+  - intent: anxiety_symptoms
+  - action: utter_symptoms
+
+- story: path_factors
+  steps:
+  - intent: anxiety_factors
+  - action: utter_factors
+
+- story: path_cure
+  steps:
+  - intent: anxiety_cure
+  - action: utter_cure
+
+- story: path_related_diseases
+  steps:
+  - intent: anxiety_related_diseases
+  - action: utter_related_diseases
+
+- story: path_can_kill
+  steps:
+  - intent: anxiety_can_kill
+  - action: utter_can_kill
+
+- story: path_handle
+  steps:
+  - intent: anxiety_handle
+  - action: utter_handle
+
+- story: path_handle_breath
+  steps:
+  - intent: anxiety_handle_breath
+  - action: utter_handle_breath
+
+- story: path_consult_doctor
+  steps:
+  - intent: anxiety_consult_doctor
+  - action: utter_consult_doctor
+
+- story: path_panic_attack
+  steps:
+  - intent: anxiety_panic_attack
+  - action: utter_panic_attack
+
+- story: path_coffee
+  steps:
+  - intent: anxiety_coffee
+  - action: utter_coffee
+
+- story: path_caffeine
+  steps:
+  - intent: anxiety_caffeine
+  - action: utter_caffeine
+
+- story: path_medication
+  steps:
+  - intent: anxiety_medication
+  - action: utter_medication
+
+- story: path_medication_effect
+  steps:
+  - intent: anxiety_medication_effect
+  - action: utter_medication_effect
+
+- story: deny_path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: deny
+  - action: utter_goodbye
+
+- story: intro_path_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_intro
+  - action: utter_intro
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: intro_path_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_intro
+  - action: utter_intro
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: bad_path_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_bad
+  - action: utter_bad
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: bad_path_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_bad
+  - action: utter_bad
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: symptoms_path_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_symptoms
+  - action: utter_symptoms
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: symptoms_path_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_symptoms
+  - action: utter_symptoms
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: factors_path_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_factors
+  - action: utter_factors
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: factors_path_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_factors
+  - action: utter_factors
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: cure_path_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_cure
+  - action: utter_cure
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: cure_path_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_cure
+  - action: utter_cure
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: related_diseases_path_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_related_diseases
+  - action: utter_related_diseases
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: related_diseases_path_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_related_diseases
+  - action: utter_related_diseases
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: can_kill_path_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_can_kill
+  - action: utter_can_kill
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: can_kill_path_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_can_kill
+  - action: utter_can_kill
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: handle_path_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_handle
+  - action: utter_handle
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: handle_path_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_handle
+  - action: utter_handle
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: consult_doctor_path_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_consult_doctor
+  - action: utter_consult_doctor
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: consult_doctor_path_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_consult_doctor
+  - action: utter_consult_doctor
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: panic_attack_path_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_panic_attack
+  - action: utter_panic_attack
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: panic_attack_path_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_panic_attack
+  - action: utter_panic_attack
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: coffee_path_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_coffee
+  - action: utter_coffee
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: coffee_path_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_coffee
+  - action: utter_coffee
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: caffeine_path_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_caffeine
+  - action: utter_caffeine
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: caffeine_path_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_caffeine
+  - action: utter_caffeine
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: medication_path_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_medication
+  - action: utter_medication
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: medication_path_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_medication
+  - action: utter_medication
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: medication_effect_path_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_medication_effect
+  - action: utter_medication_effect
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: medication_effect_path_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_continue
+  - intent: anxiety_medication_effect
+  - action: utter_medication_effect
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
