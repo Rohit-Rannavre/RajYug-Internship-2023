@@ -1,0 +1,191 @@
+version: "3.1"
+
+intents:
+  - greet
+  - affirm
+  - deny
+  - goodbye
+  - malaria_intro
+  - malaria_infection
+  - malaria_symptoms
+  - malaria_cure
+  - malaria_prevention
+  - malaria_mosquito_id
+  - malaria_occurance
+  - malaria_medicine
+  - malaria_home_remedies
+  - malaria_ginger
+  - malaria_turmeric
+  - malaria_cinnamon
+  - malaria_tulsi
+  - malaria_neem
+  - malaria_coconut_water
+  - malaria_fruits
+
+actions:
+  - utter_greet
+  - utter_intro
+  - utter_infection
+  - utter_symptoms
+  - utter_cure
+  - utter_prevention
+  - utter_mosquito_id
+  - utter_occurance
+  - utter_medicine
+  - utter_home_remedies
+  - utter_ginger
+  - utter_turmeric
+  - utter_cinnamon
+  - utter_tulsi
+  - utter_neem
+  - utter_coconut_water
+  - utter_fruits
+  - utter_goodbye
+
+responses:
+  utter_greet:
+  - text: "Hey! I am here to help you with malaria. What do you wish to know?"
+
+  utter_again:
+  - text: "Want to know more about malaria?"
+
+  utter_continue:
+  - text: "what else do you want to know?"
+
+  utter_intro:
+  - text: "Malaria is a disease caused by 'Plasomodium' parasites 
+          that are transmitted from person to person via female 
+          mosquitoes of Anopheles."
+
+  utter_infection:
+  - text: "When an Anopheles mosquito bites an infected person, a 
+          small amount of blood is taken which contains malaria 
+          parasites. These parasites multiply inside the mosquito 
+          and are then transmitted to another person when the 
+          mosquito bites. Once bitten, the parasites multiply in the 
+          liver, and then infect red blood cells (RBCs). Since 
+          plasmodium is a parasite of human blood, it can be 
+          transmitted through blood transfusion, organ transplant, or 
+          the shared use of needles or syringes. Malaria can also be 
+          transmitted from a woman to her unborn baby before or 
+          during delivery."
+  
+  utter_symptoms:
+  - text: "The most common symptoms or malaria are: fever, 
+          headache, shivering, nausea and vomiting. Malaria may 
+          also cause anaemia and jaundice because of the loss of 
+          RBCs. Symptoms in sever forms of the disease include 
+          very high fever, severe headache, kidney failure, impaired 
+          consciousness and coma."
+
+  utter_cure:
+  - text: "Yes, malaria is curable if proper and timely treatment is sought."
+
+  utter_prevention:
+  - text: "If you live in an area where malaria is a problem, you and 
+          your family can prevent malaria by: 
+          1) keeping mosquitoes from biting you, especially by wearing insect repellent and 
+          long-sleeved clothing if out of doors at night. 
+          2) eliminating places around your home where mosquitoes breed. 
+          3) spraying insecticides on your walls to kill adult mosquitoes that come inside. 
+          4) sleeping under bednets."
+
+  utter_mosquito_id:
+  - text: "It is difficult for the untrained eye to recognize 
+          Anopheles mosquitoes, especially as they usually bite 
+          at night."
+
+  utter_occurance:
+  - text: "In 2013, malaria transmission was ongoing in 97 
+          countries and territories, mainly in Africa, Europe and 
+          the Middle East. It usually occurs in tropical and 
+          subtropical countries where the physical environment 
+          and warm temperatures favor the breeding of Anopheles mosquitoes."
+
+  utter_medicine:
+  - text: "Yes there are, but the ideal medicine will depend on 
+          factors like the type of malaria parasites active in a 
+          given area and drug resistance. You should consult a 
+          doctor to determine the recommended medicine to be 
+          used."
+
+  utter_home_remedies:
+  - text: "Yes. There are some herbs and remedies such as 
+          ginger, turmeric, cinnamon, tulsi, neem, coconut water 
+          that you can use to relieve malaria symptoms and 
+          recover quickly. However, do not use these herbs as an 
+          alternative to standard medical treatment. Instead, talk 
+          to your healthcare provider before you try out any 
+          home remedy for malaria."
+
+  utter_ginger:
+  - text: "People suffering from malaria may experience 
+          symptoms like nausea and vomiting. Several clinical 
+          studies show that ginger may be effective against these 
+          symptoms. Ginger tea is a famous recipe effective in 
+          many conditions. You can make ginger tea by boiling 
+          some freshly crushed ginger with a glass of water. 
+          Ginger tea goes well with some lemon juice or a 
+          spoonful of honey."
+
+  utter_turmeric:
+  - text: "Curcumin, which is one of the main ingredients of 
+          turmeric, has shown antimalarial activity against 
+          malaria-causing pathogens according to animal studies. 
+          Therefore, turmeric may help those suffering from 
+          malaria recover fast. There are many ways to use 
+          turmeric. You can put turmeric in a glass of warm milk 
+          to get the benefits. You can also put turmeric in your 
+          foods and dishes."
+
+  utter_cinnamon:
+  - text: "Cinnamon is a common kitchen spice with many 
+          beneficial properties. For example, in several labs and 
+          animal studies, Cinnamon has shown inhibitory action 
+          against malaria-causing pathogens. You can add cinnamon 
+          powder to your herbal teas. You can also take the cinnamon 
+          powder with a glass of warm water."
+
+  utter_tulsi:
+  - text: "Tulsi is a famous herb used in the ayurvedic system of 
+          medicine. It is known to exert many health effects. The 
+          antimalarial activity of tulsi is very well documented in 
+          many scientific studies. Tulsi may also boost the immune 
+          response against infective pathogens. You can make tulsi tea 
+          by boiling fresh tulsi leaves in water. Strain this mixture 
+          in a cup and your tulsi tea is ready. You can add a drop of 
+          lemon juice or honey for additional taste."
+
+  utter_neem:
+  - text: "Neem has been used against malaria for centuries. 
+          Compounds present in neem have shown effectiveness 
+          against malarial parasites. Using neem leaves or drinking 
+          neem tea may also reduce the chances of contracting malaria. 
+          Neem may also help lower the fever and boost the immune system 
+          to fasten the recovery. You can drink neem tea or chew fresh neem 
+          leaves to get its antimalaria effects. To make neem tea, 
+          boil a glass of water. Add some neem leaves to the 
+          boiling water. Let it steep for a while. Strain the 
+          mixture into a cup. You can flavour it with honey and 
+          your tea is ready to serve."
+
+  utter_coconut_water:
+  - text: "People have been drinking coconut water to feel 
+          refreshed and energized. Intake of coconut water may 
+          help maintain fluid balance in the body. You can drink 
+          coconut water to prevent the dehydration induced by 
+          vomiting during malaria."
+
+  utter_fruits:
+  - text: "Most fruits are packed with bioactive compounds like
+          anthocyanin, vitamin C, vitamin A, vitamin D and 
+          vitamin B complex. They are also full of vital minerals 
+          and fibers. Fruits are a source of fluids which can 
+          replenish the body to help it recover faster."
+
+  utter_goodbye:
+  - text: "Bye"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
