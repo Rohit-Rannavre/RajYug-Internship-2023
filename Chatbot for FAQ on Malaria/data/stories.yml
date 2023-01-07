@@ -1,0 +1,579 @@
+version: "3.1"
+
+stories:
+
+- story: intro path 1_positive
+  steps:
+  - intent: malaria_intro
+  - action: utter_intro
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: intro path 1_negative
+  steps:
+  - intent: malaria_intro
+  - action: utter_intro
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: intro path 2_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_intro
+  - action: utter_intro
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: intro path 2_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_intro
+  - action: utter_intro
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: infection path 1_positive
+  steps:
+  - intent: malaria_infection
+  - action: utter_infection
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: infection path 1_negative
+  steps:
+  - intent: malaria_infection
+  - action: utter_infection
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: infection path 2_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_infection
+  - action: utter_infection
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: infection path 2_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_infection
+  - action: utter_infection
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: symptoms path 1_positive
+  steps:
+  - intent: malaria_symptoms
+  - action: utter_symptoms
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: symptoms path 1_negative
+  steps:
+  - intent: malaria_symptoms
+  - action: utter_symptoms
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: symptoms path 2_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_symptoms
+  - action: utter_symptoms
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: symptoms path 2_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_symptoms
+  - action: utter_symptoms
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: cure path 1_positive
+  steps:
+  - intent: malaria_cure
+  - action: utter_cure
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: cure path 1_negetive
+  steps:
+  - intent: malaria_cure
+  - action: utter_cure
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: cure path 2_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_cure
+  - action: utter_cure
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: cure path 2_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_cure
+  - action: utter_cure
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: prevention path 1_positive
+  steps:
+  - intent: malaria_prevention
+  - action: utter_prevention
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: prevention path 1_negetive
+  steps:
+  - intent: malaria_prevention
+  - action: utter_prevention
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: prevention path 2_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_prevention
+  - action: utter_prevention
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: prevention path 2_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_prevention
+  - action: utter_prevention
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: id path 1_positive
+  steps:
+  - intent: malaria_mosquito_id
+  - action: utter_mosquito_id
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: id path 1_negative
+  steps:
+  - intent: malaria_mosquito_id
+  - action: utter_mosquito_id
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: id path 2_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_mosquito_id
+  - action: utter_mosquito_id
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: id path 2_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_mosquito_id
+  - action: utter_mosquito_id
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: occurance path 1_positive
+  steps:
+  - intent: malaria_occurance
+  - action: utter_occurance
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: occurance path 1_negative
+  steps:
+  - intent: malaria_occurance
+  - action: utter_occurance
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: occurance path 2_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_occurance
+  - action: utter_occurance
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: occurance path 2_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_occurance
+  - action: utter_occurance
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: medicine path 1_positive
+  steps:
+  - intent: malaria_medicine
+  - action: utter_medicine
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: medicine path 1_negative
+  steps:
+  - intent: malaria_medicine
+  - action: utter_medicine
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: medicine path 2_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_medicine
+  - action: utter_medicine
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: medicine path 2_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_medicine
+  - action: utter_medicine
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: home remedies path 1_positive
+  steps:
+  - intent: malaria_home_remedies
+  - action: utter_home_remedies
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: home remedies path 1_negative
+  steps:
+  - intent: malaria_home_remedies
+  - action: utter_home_remedies
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: home remedies path 2_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_home_remedies
+  - action: utter_home_remedies
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: home remedies path 2_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_home_remedies
+  - action: utter_home_remedies
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: ginger path 1_positive
+  steps:
+  - intent: malaria_ginger
+  - action: utter_ginger
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: ginger path 1_negative
+  steps:
+  - intent: malaria_ginger
+  - action: utter_ginger
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: ginger path 2_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_ginger
+  - action: utter_ginger
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: ginger path 2_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_ginger
+  - action: utter_ginger
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: turmeric path 1_positive
+  steps:
+  - intent: malaria_turmeric
+  - action: utter_turmeric
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: turmeric path 1_negative
+  steps:
+  - intent: malaria_turmeric
+  - action: utter_turmeric
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: turmeric path 2_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_turmeric
+  - action: utter_turmeric
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: turmeric path 2_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_turmeric
+  - action: utter_turmeric
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: cinnamon path 1_positive
+  steps:
+  - intent: malaria_cinnamon
+  - action: utter_cinnamon
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: cinnamon path 1_negative
+  steps:
+  - intent: malaria_cinnamon
+  - action: utter_cinnamon
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: cinnamon path 2_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_cinnamon
+  - action: utter_cinnamon
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: cinnamon path 2_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_cinnamon
+  - action: utter_cinnamon
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: tulsi path 1_positive
+  steps:
+  - intent: malaria_tulsi
+  - action: utter_tulsi
+  - action: utter_again
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: tulsi path 1_negative
+  steps:
+  - intent: malaria_tulsi
+  - action: utter_tulsi
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: tulsi path 2_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_tulsi
+  - action: utter_tulsi
+  - action: utter_again
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: tulsi path 2_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_tulsi
+  - action: utter_tulsi
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: neem path 1_positive
+  steps:
+  - intent: malaria_neem
+  - action: utter_neem
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: neem path 1_negative
+  steps:
+  - intent: malaria_neem
+  - action: utter_neem
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: neem path 2_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_neem
+  - action: utter_neem
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: neem path 2_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_neem
+  - action: utter_neem
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: coconut water path 1_positive
+  steps:
+  - intent: malaria_coconut_water
+  - action: utter_coconut_water
+  - action: utter_again
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: coconut water path 1_negative
+  steps:
+  - intent: malaria_coconut_water
+  - action: utter_coconut_water
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+  
+- story: coconut water path 2_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_coconut_water
+  - action: utter_coconut_water
+  - action: utter_again
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: coconut water path 2_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_coconut_water
+  - action: utter_coconut_water
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: fruits path 1_positive
+  steps:
+  - intent: malaria_fruits
+  - action: utter_fruits
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: fruits path 1_negative
+  steps:
+  - intent: malaria_fruits
+  - action: utter_fruits
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye
+
+- story: fruits path 2_positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_fruits
+  - action: utter_fruits
+  - action: utter_again
+  - intent: affirm
+  - action: utter_continue
+
+- story: fruits path 2_negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malaria_fruits
+  - action: utter_fruits
+  - action: utter_again
+  - intent: deny
+  - action: utter_goodbye

@@ -1,0 +1,144 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hey there
+    - hello
+    - hello there
+    - hi
+    - hi there
+    - good morning
+    - goodmorning
+    - morning
+    - good afternoon
+    - goodafternoon
+    - afternoon
+    - good evening
+    - goodevening
+    - evening
+
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - yep
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - na
+    - nope
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: goodbye
+  examples: |
+    - have a nice day
+    - bye
+    - bye bye
+    - goodbye
+    - good by
+    - see you later
+    - see you around
+    - cee you later
+    - cu
+    - good night
+
+- intent: malaria_intro
+  examples: |
+    - what is malaria
+    - malaria means what 
+    - tell me about malaria
+
+- intent: malaria_infection
+  examples: |
+    - how do you get malaria
+    - how can one get malaria
+    - how do you get infected with malaria
+
+- intent: malaria_symptoms
+  examples: |
+    - what are the signs of malaria
+    - what are the symptoms of malaria
+    - what symptoms are seen in the malaria patient
+
+- intent: malaria_cure
+  examples: |
+    - is malaria curable
+    - can malaria be cured
+
+- intent: malaria_prevention
+  examples: |
+    - how malaria can be prevented
+    - how can malaria be prevented
+    - how can I prevent myself from malaria
+    - how can I protect myself from malaria
+    - how can I protect myself and my family from malaria
+
+- intent: malaria_mosquito_id
+  examples: |
+    - how can I recognize the Anopheles mosquito
+    - how can I identify the Anopheles mosquito
+    - how can I identify Anopheles
+
+- intent: malaria_occurance
+  examples: |
+    - where does malaria occur
+    - where malaria is found
+
+- intent: malaria_medicine
+  examples: |
+    - are there medicines to prevent malaria
+    - can malaria be prevented by medicines
+
+- intent: malaria_home_remedies
+  examples: |
+    -	are there home remedies for malaria
+    -	what are the home remedies for malaria
+    -	can I treat malaria at home
+
+- intent: malaria_ginger
+  examples: |
+    -	how ginger helps to tackle malaria
+    -	how ginger is effective against malaria
+
+- intent: malaria_turmeric
+  examples: |
+    -	how turmeric helps to tackle malaria
+    -	how turmeric is effective against malaria
+
+- intent: malaria_cinnamon
+  examples: |
+    -	how cinnamon helps to tackle malaria
+    -	how cinnamon is effective against malaria
+
+- intent: malaria_tulsi
+  examples: |
+    -	how tulsi helps to tackle malaria
+    -	how tulsi is effective against malaria
+
+- intent: malaria_neem
+  examples: |
+    -	how neem helps to tackle malaria
+    -	how neem is effective against malaria
+
+- intent: malaria_coconut_water
+  examples: |
+    -	how coconut water helps to tackle malaria
+    -	how coconut water is effective against malaria
+
+- intent: malaria_fruits
+  examples: |
+    -	how fruits help to tackle malaria
+    -	how fruits are effective against malaria
