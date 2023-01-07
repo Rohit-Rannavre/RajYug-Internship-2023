@@ -15,17 +15,17 @@ This repository contains the projects I have done as an AI/ML intern with [RajYu
 
 ### :zap: RASA Chatbot on FAQ for Anxiety
 
-> [Questions & Answers](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20on%20Health%20Remedies%20for%20Anxiety/Q%26A%20for%20Anxiety.pdf)
+> [Questions & Answers](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20for%20FAQ%20on%20Anxiety/Q%26A%20for%20Anxiety.pdf)
 
-> [Model](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20on%20Health%20Remedies%20for%20Anxiety/models/final-model.tar.gz)
+> [Model](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20for%20FAQ%20on%20Anxiety/models/final-model.tar.gz)
 
 ***
 
 ### :zap: RASA Chatbot on FAQ for Malaria
 
-> [Questions & Answers](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20on%20Health%20Remedies%20for%20Malaria/Q%26A%20for%20Malaria.pdf)
+> [Questions & Answers](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20for%20FAQ%20on%20Malaria/Q%26A%20for%20Malaria.pdf)
 
-> Model
+> [Model](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20for%20FAQ%20on%20Malaria/models/final-model.tar.gz)
 
 > Datasources:
  
@@ -36,9 +36,9 @@ This repository contains the projects I have done as an AI/ML intern with [RajYu
 
 ### :zap: Disease Prediction Based on Symptoms Using Machine Learning
 
-> [Dataset](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Symptoms%20Based%20Disease%20Prediction/disease_dataset.csv)
+> [Dataset](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Disease%20Prediction%20Based%20on%20Symptoms%20Using%20ML/disease_dataset.csv)
 
-> [Python Code](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Symptoms%20Based%20Disease%20Prediction/disease_prediction.ipynb)
+> [Python Code](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Disease%20Prediction%20Based%20on%20Symptoms%20Using%20ML/disease_prediction.ipynb)
 
 ***
 
