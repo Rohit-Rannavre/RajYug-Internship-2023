@@ -7,8 +7,6 @@
 ![](https://img.shields.io/badge/Rasa-5A17EE.svg?style=for-the-badge&logo=Rasa&logoColor=white)
 ![](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white)
 
-![visitor badge](https://visitor-badge.glitch.me/badge?style=for-the-badge&page_id=jwenjian.visitor-badge&left_text=Views&left_color=999933&right_color=green)
-
 This repository contains the projects I have done as an AI/ML intern with [RajYug IT Solutions Pvt. Ltd.](https://in.linkedin.com/company/rajyug-solutions?original_referer=https%3A%2F%2Fwww.google.com%2F)
 
 <br>
