@@ -11,7 +11,7 @@ This repository contains the projects I have done as an AI/ML intern with [RajYu
 
 <img align="right" src="https://www.insegment.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif" width=250>
 
-### :zap: RASA Chatbot on Health Remedies for Anxiety
+### :zap: RASA Chatbot on FAQ for Anxiety
 
 > [Questions & Answers](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20on%20Health%20Remedies%20for%20Anxiety/Q%26A%20for%20Anxiety.pdf)
 
@@ -19,7 +19,7 @@ This repository contains the projects I have done as an AI/ML intern with [RajYu
 
 ***
 
-### :zap: RASA Chatbot on Health Remedies for Malaria
+### :zap: RASA Chatbot on FAQ for Malaria
 
 > [Questions & Answers](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20on%20Health%20Remedies%20for%20Malaria/Q%26A%20for%20Malaria.pdf)
 
@@ -29,6 +29,14 @@ This repository contains the projects I have done as an AI/ML intern with [RajYu
  
  - [WHO](https://apps.who.int/iris/bitstream/handle/10665/205088/B5046.pdf?sequence=1)
  - [PharmEasy](https://pharmeasy.in/blog/home-remedies-for-malaria-by-dr-siddharth-gupta/)
+
+***
+
+### :zap: Symptoms Based Disease Prediction
+
+> Dataset
+
+> Python Code
 
 ***
 
