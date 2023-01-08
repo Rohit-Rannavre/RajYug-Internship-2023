@@ -11,7 +11,7 @@ This repository contains the projects I have done as an AI/ML intern with [RajYu
 
 <br>
 
-<img align="right" src="https://www.insegment.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif" width=350>
+<img align="right" src="https://www.insegment.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif" width=300>
 
 ### :zap: RASA Chatbot on FAQ for Anxiety
 
