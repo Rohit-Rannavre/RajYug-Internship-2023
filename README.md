@@ -11,7 +11,7 @@ This repository contains the projects I have done as an AI/ML intern with [RajYu
 
 <br>
 
-<img align="right" src="https://www.insegment.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif" width=250>
+<img align="right" src="https://www.insegment.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif" width=350>
 
 ### :zap: RASA Chatbot on FAQ for Anxiety
 
@@ -39,8 +39,6 @@ This repository contains the projects I have done as an AI/ML intern with [RajYu
 > [Dataset](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Disease%20Prediction%20Based%20on%20Symptoms%20Using%20ML/disease_dataset.csv)
 
 > [Python Code](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Disease%20Prediction%20Based%20on%20Symptoms%20Using%20ML/disease_prediction.ipynb)
-
-***
 
 <br>
 
