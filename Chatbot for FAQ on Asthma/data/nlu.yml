@@ -1,0 +1,264 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - hey there
+    - good morning
+    - goodmorning
+    - morning
+    - good afternoon
+    - goodafternoon
+    - afternoon
+    - good evening
+    - goodevening
+    - evening
+
+- intent: affirm
+  examples: |
+    - yes
+    - yep
+    - yeah
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - nope
+    - never
+    - na
+    - n
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: goodbye
+  examples: |
+    - good bye
+    - bye
+    - bye bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - cee you later
+    - cu
+    - see you later
+
+- intent: asthma_intro
+  examples: |
+    -	what is asthma
+    -	what does asthma mean
+    -	tell me about asthma
+    -	asthma means what
+
+- intent: asthma_inflammation
+  examples: |
+    -	what is inflammation in the airways
+    -	what is inflammation in asthma
+
+- intent: asthma_inflammation_affect
+  examples: |
+    -	how does inflammation of the airways affect my asthma?
+    -	how inflammation can affect the airways of the lungs
+
+- intent: asthma_cure
+  examples: |
+    -	can asthma be cured
+    -	is there cure for asthma
+    -	is asthma curable
+    -	how do you cure asthma
+
+- intent: asthma_likelihood
+  examples: |
+    -	who gets asthma
+    -	who are liable to get asthma
+    -	who are vulnerable to asthma
+
+- intent: asthma_causes
+  examples: |
+    -	what causes asthma
+    -	what are the causes of asthma
+
+- intent: asthma_symptoms
+  examples: |
+    -	what are the symptoms of asthma
+    -	what are the signs of asthma
+
+- intent: asthma_trigger_factors
+  examples: |
+    -	what factors trigger asthma
+    -	what can trigger asthma
+    -	what can trigger asthma symptoms
+    -	what can worsen asthma
+    -	what can worsen asthma symptoms
+
+- intent: asthma_triggers
+  examples: |
+    -	what are asthma triggers
+    -	what are asthma triggering factors
+
+- intent: asthma_medication_trigger
+  examples: |
+    -	can medication trigger asthma
+    -	can medication worsen asthma 
+
+- intent: asthma_whether_change
+  examples: |
+    -	can whether changes trigger asthma
+    -	can whether changes worsen asthma
+    -	can whether changes effect asthma
+    -	can whether changes have adverse effects on asthma
+
+- intent: asthma_attack
+  examples: |
+    -	what causes an asthma attack
+    -	what are the causes of an asthma attack
+
+- intent: asthma_deadly
+  examples: |
+    -	can a person die from asthma
+    -	can i die if i get asthma
+    -	can asthma be deadly
+
+- intent: asthma_medication
+  examples: |
+    -	can asthma medication help prevent asthma symptoms
+    -	is asthma medication effective 
+
+- intent: asthma_pets
+  examples: |
+    -	i am allergic to pets what can i do
+    -	i am allergic to dogs what can i do
+    -	i am allergic to cats what can i do
+
+- intent: asthma_controllers
+  examples: |
+    -	what are asthma controllers
+    -	why controllers are used against asthma
+    -	what type of controllers can be used against asthma
+    -	what type of controllers are used against asthma
+
+- intent: asthma_relievers
+  examples: |
+    -	what are asthma relievers
+    -	what are airway openers
+    -	why relievers are used against asthma
+    -	why airway openers are used against asthma
+    -	what type of relievers are used in asthma
+    -	what type of airway openers are used in asthma
+
+- intent: asthma_anti_inflammatory
+  examples: |
+    -	what effects do anti inflammatory medications have
+    -	why anti inflammatory medications are used against asthma
+    -	why anti inflammatory medications are important in asthma treatment
+    -	what role anti inflammatory medications play in asthma treatment 
+
+- intent: asthma_airway_opener
+  examples: |
+    -	what effects do airway opener medications have on asthma
+    -	what effects do reliever medications have on asthma
+    -	why airway opener medications are used against asthma
+    -	why  reliever medications are used against asthma
+    -	what effects do relievers have on asthma
+    -	what effects do airway openers have on asthma
+
+- intent: asthma_side_effects
+  examples: |
+    -	can asthma itself cause side effects
+    -	what are the side effects of asthma
+    -	what side effects can asthma have on your body
+    -	are there any side effects of asthma
+
+- intent: asthma_spreadable
+  examples: |
+    -	is asthma contagious
+    -	is asthma spreadable
+    -	can asthma spread from person to person
+
+- intent: asthma_garlic
+  examples: |
+    -	how garlic can help asthma patients
+    -	is garlic helpful against asthma
+    -	is garlic useful against asthma
+    -	how garlic can be effective
+
+- intent: asthma_ginger
+  examples: |
+    -	how ginger can help asthma patients
+    -	is ginger helpful against asthma
+    -	is ginger useful against asthma
+    -	how ginger can be effective
+
+- intent: asthma_honey
+  examples: |
+    -	how honey can help asthma patients
+    -	is honey helpful against asthma
+    -	is honey useful against asthma
+    -	how honey can be effective
+
+- intent: asthma_fish
+  examples: |
+    -	how fish can help asthma patients
+    -	how omega 3 can help asthma patients
+    -	is fish helpful against asthma
+    -	is omega 3 helpful against asthma
+    -	is fish useful against asthma
+    -	is omega 3 useful against asthma
+    -	how fish can be effective
+    -	how omega 3 can be effective
+
+- intent: asthma_caffeine
+  examples: |
+    -	how caffeine can help
+    -	is caffeine useful against asthma
+    -	is caffeine helpful against asthma
+    -	how caffeine can be effective
+
+- intent: asthma_mulethi
+  examples: |
+    -	how mulethi can help
+    -	is mulethi useful against asthma
+    -	is mulethi helpful against asthma
+    -	how mulethi can be effective
+
+- intent: asthma_lavanga
+  examples: |
+    -	how lavanga can help
+    -	how clove can help
+    -	is lavanga useful against asthma
+    -	is clove useful against asthma
+    -	is lavanga helpful against asthma
+    -	is clove helpful against asthma
+    -	how lavanga can be effective
+    -	how clove can be effective
+
+- intent: asthma_steaming
+  examples: |
+    -	can steaming be used for asthma
+    -	is steaming effective against asthma
+
+- intent: asthma_onion
+  examples: |
+    -	can onion be used for asthma
+    -	how onion can help against asthma
+
+- intent: asthma_home_remedies
+  examples: |
+    -	what are the home remedies for asthma
+    -	are there home remedies for asthma
+    -	can asthma be treated at home
+
+- intent: asthma_precautions
+  examples: |
+    -	what precautions can be taken to prevent asthma
+    -	what are the precautions I can take for asthma

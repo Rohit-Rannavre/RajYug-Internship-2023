@@ -1,0 +1,1155 @@
+version: "3.1"
+
+stories:
+
+- story: intro 1 positive
+  steps:
+  - intent: asthma_intro
+  - action: utter_intro
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: intro 1 negative
+  steps:
+  - intent: asthma_intro
+  - action: utter_intro
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: intro 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_intro
+  - action: utter_intro
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: intro 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_intro
+  - action: utter_intro
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: inflammation 1 positive
+  steps:
+  - intent: asthma_inflammation
+  - action: utter_inflammation
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: inflammation 1 negative
+  steps:
+  - intent: asthma_inflammation
+  - action: utter_inflammation
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: inflammation 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_inflammation
+  - action: utter_inflammation
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: inflammation 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_inflammation
+  - action: utter_inflammation
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: inflammation affect 1 positive
+  steps:
+  - intent: asthma_inflammation_affect
+  - action: utter_inflammation_affect
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: inflammation affect 1 negative
+  steps:
+  - intent: asthma_inflammation_affect
+  - action: utter_inflammation_affect
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: inflammation affect 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_inflammation_affect
+  - action: utter_inflammation_affect
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: inflammation affect 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_inflammation_affect
+  - action: utter_inflammation_affect
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: cure 1 positive
+  steps:
+  - intent: asthma_cure
+  - action: utter_cure
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: cure 1
+  steps:
+  - intent: asthma_cure
+  - action: utter_cure
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: cure 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_cure
+  - action: utter_cure
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: cure 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_cure
+  - action: utter_cure
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: likelihood 1 positive
+  steps:
+  - intent: asthma_likelihood
+  - action: utter_likelihood
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: likelihood 1 negative
+  steps:
+  - intent: asthma_likelihood
+  - action: utter_likelihood
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: likelihood 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_likelihood
+  - action: utter_likelihood
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: likelihood 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_likelihood
+  - action: utter_likelihood
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: causes 1 positive
+  steps:
+  - intent: asthma_causes
+  - action: utter_causes
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: causes 1 negative
+  steps:
+  - intent: asthma_causes
+  - action: utter_causes
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: causes 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_causes
+  - action: utter_causes
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: causes 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_causes
+  - action: utter_causes
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: symptoms 1 positive
+  steps:
+  - intent: asthma_symptoms
+  - action: utter_symptoms
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: symptoms 1 negative
+  steps:
+  - intent: asthma_symptoms
+  - action: utter_symptoms
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: symptoms 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_symptoms
+  - action: utter_symptoms
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: symptoms 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_symptoms
+  - action: utter_symptoms
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: trigger factors 1 positive
+  steps:
+  - intent: asthma_trigger_factors
+  - action: utter_trigger_factors
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: trigger factors 1 negative
+  steps:
+  - intent: asthma_trigger_factors
+  - action: utter_trigger_factors
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: trigger factors 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_trigger_factors
+  - action: utter_trigger_factors
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: trigger factors 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_trigger_factors
+  - action: utter_trigger_factors
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: triggers 1 positive
+  steps:
+  - intent: asthma_triggers
+  - action: utter_triggers
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: triggers 1 negative
+  steps:
+  - intent: asthma_triggers
+  - action: utter_triggers
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: triggers 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_triggers
+  - action: utter_triggers
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: triggers 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_triggers
+  - action: utter_triggers
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: medication trigger 1 positive
+  steps:
+  - intent: asthma_medication_trigger
+  - action: utter_medication_trigger
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: medication trigger 1 negative
+  steps:
+  - intent: asthma_medication_trigger
+  - action: utter_medication_trigger
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: medication trigger 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_medication_trigger
+  - action: utter_medication_trigger
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: medication trigger 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_medication_trigger
+  - action: utter_medication_trigger
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: whether change 1 positive
+  steps:
+  - intent: asthma_whether_change
+  - action: utter_whether_change
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: whether change 1 negative
+  steps:
+  - intent: asthma_whether_change
+  - action: utter_whether_change
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: whether change 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_whether_change
+  - action: utter_whether_change
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: whether change 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_whether_change
+  - action: utter_whether_change
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: attack 1 positive
+  steps:
+  - intent: asthma_attack
+  - action: utter_attack
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: attack 1 negative
+  steps:
+  - intent: asthma_attack
+  - action: utter_attack
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: attack 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_attack
+  - action: utter_attack
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: attack 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_attack
+  - action: utter_attack
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: deadly 1 positive
+  steps:
+  - intent: asthma_deadly
+  - action: utter_deadly
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: deadly 1 negative
+  steps:
+  - intent: asthma_deadly
+  - action: utter_deadly
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: deadly 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_deadly
+  - action: utter_deadly
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: deadly 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_deadly
+  - action: utter_deadly
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: medication 1 positive
+  steps:
+  - intent: asthma_medication
+  - action: utter_medication
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: medication 1 negative
+  steps:
+  - intent: asthma_medication
+  - action: utter_medication
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: medication 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_medication
+  - action: utter_medication
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: medication 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_medication
+  - action: utter_medication
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: pets 1 positive
+  steps:
+  - intent: asthma_pets
+  - action: utter_pets
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: pets 1 negative
+  steps:
+  - intent: asthma_pets
+  - action: utter_pets
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: pets 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_pets
+  - action: utter_pets
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: pets 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_pets
+  - action: utter_pets
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: controllers 1 positive
+  steps:
+  - intent: asthma_controllers
+  - action: utter_controllers
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: controllers 1 negative
+  steps:
+  - intent: asthma_controllers
+  - action: utter_controllers
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: controllers 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_controllers
+  - action: utter_controllers
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: controllers 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_controllers
+  - action: utter_controllers
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: relievers 1 positive
+  steps:
+  - intent: asthma_relievers
+  - action: utter_relievers
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: relievers 1 negative
+  steps:
+  - intent: asthma_relievers
+  - action: utter_relievers
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: relievers 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_relievers
+  - action: utter_relievers
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: relievers 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_relievers
+  - action: utter_relievers
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: anti inflammatory 1 positive
+  steps:
+  - intent: asthma_anti_inflammatory
+  - action: utter_anti_inflammatory
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: anti inflammatory 1 negative
+  steps:
+  - intent: asthma_anti_inflammatory
+  - action: utter_anti_inflammatory
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: anti inflammatory 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_anti_inflammatory
+  - action: utter_anti_inflammatory
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: anti inflammatory 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_anti_inflammatory
+  - action: utter_anti_inflammatory
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: airway opener 1 positive
+  steps:
+  - intent: asthma_airway_opener
+  - action: utter_airway_opener
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: airway opener 1 negative
+  steps:
+  - intent: asthma_airway_opener
+  - action: utter_airway_opener
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: airway opener 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_airway_opener
+  - action: utter_airway_opener
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: airway opener 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_airway_opener
+  - action: utter_airway_opener
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: side effects 1 positive
+  steps:
+  - intent: asthma_side_effects
+  - action: utter_side_effects
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: side effects 1 negative
+  steps:
+  - intent: asthma_side_effects
+  - action: utter_side_effects
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: side effects 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_side_effects
+  - action: utter_side_effects
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: side effects 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_side_effects
+  - action: utter_side_effects
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: spreadable 1 positive
+  steps:
+  - intent: asthma_spreadable
+  - action: utter_spreadable
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: spreadable 1 negative
+  steps:
+  - intent: asthma_spreadable
+  - action: utter_spreadable
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: spreadable 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_spreadable
+  - action: utter_spreadable
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: spreadable 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_spreadable
+  - action: utter_spreadable
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: garlic 1 positive
+  steps:
+  - intent: asthma_garlic
+  - action: utter_garlic
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: garlic 1 negative
+  steps:
+  - intent: asthma_garlic
+  - action: utter_garlic
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: garlic 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_garlic
+  - action: utter_garlic
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: garlic 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_garlic
+  - action: utter_garlic
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: ginger 1 positive
+  steps:
+  - intent: asthma_ginger
+  - action: utter_ginger
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: ginger 1 negative
+  steps:
+  - intent: asthma_ginger
+  - action: utter_ginger
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: ginger 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_ginger
+  - action: utter_ginger
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: ginger 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_ginger
+  - action: utter_ginger
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: honey 1 positive
+  steps:
+  - intent: asthma_honey
+  - action: utter_honey
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: honey 1 negative
+  steps:
+  - intent: asthma_honey
+  - action: utter_honey
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: honey 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_honey
+  - action: utter_honey
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: honey 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_honey
+  - action: utter_honey
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: fish 1 positive
+  steps:
+  - intent: asthma_fish
+  - action: utter_fish
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: fish 1 negative
+  steps:
+  - intent: asthma_fish
+  - action: utter_fish
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: fish 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_fish
+  - action: utter_fish
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: fish 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_fish
+  - action: utter_fish
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: caffeine 1 positive
+  steps:
+  - intent: asthma_caffeine
+  - action: utter_caffeine
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: caffeine 1 negative
+  steps:
+  - intent: asthma_caffeine
+  - action: utter_caffeine
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: caffeine 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_caffeine
+  - action: utter_caffeine
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: caffeine 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_caffeine
+  - action: utter_caffeine
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: mulethi 1 positive
+  steps:
+  - intent: asthma_mulethi
+  - action: utter_mulethi
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: mulethi 1 negative
+  steps:
+  - intent: asthma_mulethi
+  - action: utter_mulethi
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: mulethi 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_mulethi
+  - action: utter_mulethi
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: mulethi 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_mulethi
+  - action: utter_mulethi
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: lavanga 1 positive
+  steps:
+  - intent: asthma_lavanga
+  - action: utter_lavanga
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: lavanga 1 negative
+  steps:
+  - intent: asthma_lavanga
+  - action: utter_lavanga
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: lavanga 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_lavanga
+  - action: utter_lavanga
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: lavanga 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_lavanga
+  - action: utter_lavanga
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: steaming 1 positive
+  steps:
+  - intent: asthma_steaming
+  - action: utter_steaming
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: steaming 1 negative
+  steps:
+  - intent: asthma_steaming
+  - action: utter_steaming
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: steaming 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_steaming
+  - action: utter_steaming
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: steaming 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_steaming
+  - action: utter_steaming
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: onion 1 positive
+  steps:
+  - intent: asthma_onion
+  - action: utter_onion
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: onion 1 negative
+  steps:
+  - intent: asthma_onion
+  - action: utter_onion
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: onion 2 positive 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_onion
+  - action: utter_onion
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: onion 2 negetive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_onion
+  - action: utter_onion
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: home remedies 1 positive
+  steps:
+  - intent: asthma_home_remedies
+  - action: utter_home_remedies
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: home remedies 1 negative
+  steps:
+  - intent: asthma_home_remedies
+  - action: utter_home_remedies
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: home remedies 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_home_remedies
+  - action: utter_home_remedies
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: home remedies 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_home_remedies
+  - action: utter_home_remedies
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: precautions 1 positive
+  steps:
+  - intent: asthma_precautions
+  - action: utter_precautions
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: precautions 1 negative
+  steps:
+  - intent: asthma_precautions
+  - action: utter_precautions
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: precautions 2 positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_precautions
+  - action: utter_precautions
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: precautions 2 negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: asthma_precautions
+  - action: utter_precautions
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
