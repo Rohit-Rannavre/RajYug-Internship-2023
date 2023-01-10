@@ -1,0 +1,248 @@
+version: "3.1"
+
+intents:
+  - greet
+  - affirm
+  - deny
+  - goodbye
+  - asthma_intro
+  - asthma_inflammation
+  - asthma_inflammation_affect
+  - asthma_cure
+  - asthma_likelihood
+  - asthma_causes
+  - asthma_symptoms
+  - asthma_trigger_factors
+  - asthma_triggers
+  - asthma_medication_trigger
+  - asthma_whether_change
+  - asthma_attack
+  - asthma_deadly
+  - asthma_medication
+  - asthma_pets
+  - asthma_controllers
+  - asthma_relievers
+  - asthma_anti_inflammatory
+  - asthma_airway_opener
+  - asthma_side_effects
+  - asthma_spreadable
+  - asthma_garlic
+  - asthma_ginger
+  - asthma_honey
+  - asthma_fish
+  - asthma_caffeine
+  - asthma_mulethi
+  - asthma_lavanga
+  - asthma_steaming
+  - asthma_onion
+  - asthma_home_remedies
+  - asthma_precautions
+  
+actions: 
+  - utter_greet
+  - utter_continue
+  - utter_again
+  - utter_goodbye
+  - utter_intro
+  - utter_inflammation
+  - utter_inflammation_affect
+  - utter_cure
+  - utter_likelihood
+  - utter_causes
+  - utter_symptoms
+  - utter_trigger_factors
+  - utter_triggers
+  - utter_medication_trigger
+  - utter_whether_change
+  - utter_attack
+  - utter_deadly
+  - utter_medication
+  - utter_pets
+  - utter_controllers
+  - utter_relievers
+  - utter_anti_inflammatory
+  - utter_airway_opener
+  - utter_side_effects
+  - utter_spreadable
+  - utter_garlic
+  - utter_ginger
+  - utter_honey
+  - utter_fish
+  - utter_caffeine
+  - utter_mulethi
+  - utter_lavanga
+  - utter_steaming
+  - utter_onion
+  - utter_home_remedies
+  - utter_precautions
+ 
+responses:
+  
+  utter_greet:
+  - text: "Hey! I am here to help you with asthma. You can ask me questions."
+
+  utter_continue:
+  - text: "want to know more about asthma?"
+
+  utter_again:
+  - text: "what else do you wish to know?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_intro:
+  - text: "Asthma is a chronic respiratory condition characterized by inflammation and narrowing of the airways, 
+          which can make it difficult to breathe. It is a common condition that affects people of all ages, 
+          but it is more common in children."
+
+  utter_inflammation:
+  - text: "Inflammation is a reaction to infections and other triggers in the lining of the airways and the underlying tissue. 
+          The inflammation makes the airways in the lungs become red, swollen, narrower and extra-sensitive."
+
+  utter_inflammation_affect:
+  - text: "Inflammation of the airways causes asthma symptoms such as wheezing, breathlessness, chest tightness and coughing by restricting and/or limiting the airflow to and from the lungs. It does this by causing:
+          1) swelling of the airways, which make them narrower.
+          2) tightening of the muscles that surround the airways, which make them even narrower.
+          3) increasing the production of too much mucus, which can plug up or block the airways.
+
+          As such, when the airways have been inflamed for a long time, they become extra-sensitive. This means that they react faster and more strongly to various triggers, such as allergens, viruses, dust, smoke and stress."
+
+  utter_cure:
+  - text: "No, unfortunately there is no permanent cure for it but it can be controlled or managed."
+
+  utter_likelihood:
+  - text: "Asthma tends to run in families, which means that you are more likely to develop asthma if someone in your family already has it. 
+          Children with eczema or food allergy are more likely than other children to develop asthma. Allergy to pollen, house dust mites or pets also increases your chance of developing asthma. Exposure to tobacco smoke, 
+          air pollution or other inhaled irritants can also cause asthma symptoms in those with an underlying tendency to asthma."
+
+  utter_causes:
+  - text: "Causes of asthma are not fully understood. Asthma is probably usually caused by a mixture of hereditary factors and environmental factors, but how these factors work together is still largely unknown. 
+          Allergens from house dust, mites and pets are the most common causes, but many other allergens, such as pollen and moulds, can cause asthma. Some patients with asthma have no obvious allergies."
+
+  utter_symptoms:
+  - text: "Asthma causes symptoms such as wheezing, shortness of breath, chest tightness, and cough that vary over time in their occurrence, frequency and intensity."
+
+  utter_trigger_factors:
+  - text: "Factors that may trigger or worsen asthma symptoms include viral infections, domestic or occupational allergens (e.g., house dust mite, pollens, cockroach etc), tobacco smoke, exercise and stress. 
+          These responses are more likely when asthma is uncontrolled. Some drugs can also trigger asthma, e.g., beta-blockers, and (in some patients) aspirin."
+
+  utter_triggers:
+  - text: "Asthma triggers are factors that start asthma symptoms by irritating the airways or worsening the inflammation in the airways. These triggers can provoke attacks in individuals who already have a tendency to asthma, but they are not necessarily part of the cause of that tendency. 
+          The following triggers can cause asthma symptoms or start an asthma attack:
+          1) infections, usually those caused by a virus (e.g. colds or flu)
+          2) allergens, most commonly from house dust, mites, pets or pollen
+          3) exercise, especially in cold weather
+          4) emotions, such as excitement, fear or anger
+          5) irritants, such as air pollution
+          6) active or passive smoking
+          7) changes in the weather
+          8) pressure on chest
+          9) food additives, such as tartrazine (an artificial food colouring), or food allergens, such as peanuts (allergic individuals can have a very severe allergic reaction).
+          10) certain medications some people may be allergic to some drugs (e.g. aspirin)."
+
+  utter_medication_trigger:
+  - text: "Only a few medications can trigger asthma. Check with your doctor or pharmacist before starting any new medicine. And if your asthma symptoms are worse after starting a new medication, you should see your doctor immediately. 
+          The most common medicines that can trigger asthma are:
+          1) aspirin (acetylsalicylic acid) and certain other NSAID (non-steroidal anti-inflammatory) drugs, which are used as pain relievers, and to treat inflammatory conditions.
+          2) beta-blockers, which are used to treat high blood pressure, heart conditions, migraine or anxiety."
+
+  utter_whether_change:
+  - text: "Yes, sudden weather changes (e.g. cold winds, humidity and storms) can trigger asthma in some people. Some of these sudden changes can cause the release of allergens, such as pollen, that can make asthma worse in people whose asthma is allergy-related. 
+          Cold air can also have a direct irritant effect on inflamed airways."
+
+  utter_attack:
+  - text: "A number of different triggers can cause asthma symptoms or start an asthma attack:
+          1) infections, usually those caused by a virus (e.g. colds or flu)
+          2) allergens, most commonly from house dust mites, pets or pollen
+          3) exercise, especially in cold weather
+          4) emotions, such as excitement, fear or anger
+          5) irritants, such as air pollution
+          6) smoking people with asthma and the parents of asthmatic children should avoid smoking
+          7) changes in the weather (e.g. a cold spell)
+          8) food additives, such as tartrazine (an artificial food colouring), or food allergens, 
+          such as peanuts (sensitized or allergic individuals can have a very severe allergic reaction).
+          9) certain medications some people may be allergic to some drugs (e.g. aspirin)."
+
+  utter_deadly:
+  - text: "Unfortunately, deaths still occur in acute, severe asthma. But this is unusual and can be prevented by proper prevention, and medication."
+
+  utter_medication:
+  - text: "Yes. Asthma medications include very effective airway openers. 
+          Even more importantly, they include very effective controllers (inhaled steroids), which can prevent most asthma attacks when used regularly."
+
+  utter_pets:
+  - text: "If you have allergic asthma, it is especially important to avoid or at least reduce your exposure to the relevant allergens. 
+          So, if you are allergic to pets, such as cats and dogs, you should not keep them indoors. 
+          You should also reduce your contact with other peoples' pets, especially indoors."
+
+  utter_controllers:
+  - text: "Controllers are medicines that prevent asthma attacks from starting. There are two types of controllers, anti-inflammatory medicines and airway openers.
+          Anti-inflammatory medicines work by reducing the inflammation in the airways that occurs in asthma. The most effective and most commonly used anti-inflammatory medicines are inhaled glucocorticosteroids. 
+          These medicines help to prevent periods of greater severity of asthma if you take them regularly as instructed by your doctor, and they may relieve you of your symptoms completely for most of the time.
+          Airway openers are medicines that help to prevent attacks progressing by quickly opening up the narrowed airways. They do this by relaxing the muscles surrounding the airways. 
+          Most airway openers only have a short-term effect and should not be used regularly as controllers. Long-acting airway openers, including formoterol and salmeterol, are effective as controllers when they are used regularly with an inhaled glucocorticosteroid. 
+          However, they should not be used regularly on their own as they do not treat the underlying inflammation and their effect on the symptoms of asthma could even hide the fact that it is getting worse."
+
+  utter_relievers:
+  - text: "Relievers or airway openers are medicines that provide rapid relief from an asthma attack by quickly opening up the narrowed airways (dilating the bronchi). They do this by relaxing the muscles surrounding the airways, and are known to doctors and other asthma professionals as bronchodilators.
+          There are two types of airway openers short-acting bronchodilators and long-acting bronchodilators. The most widely used short- and quick-acting airway openers are salbutamol (also known as albuterol) and terbutaline. Salmeterol is a long-acting airway opener that has a slower action, so it is used for longer-term control, but not for the quick relief of symptoms. 
+          Formoterol is a long-acting airway opener that is also quick-acting, so it can be used both for the immediate relief of symptoms and for longer-term control."
+
+  utter_anti_inflammatory:
+  - text: "Asthma is caused by inflammation of the airways, which makes them become red, swollen, narrower and extra-sensitive to irritants. Anti-inflammatory medicines relieve this inflammation, so that the swelling goes down and further swelling is prevented, the narrowing due to muscle tightening is reduced, and the airways become less sensitive to asthma triggers."
+
+  utter_airway_opener:
+  - text: "Airway openers work by opening up the narrowed airways. They do this by relaxing the muscles surrounding the airways. This makes it easier to get air in and out of the lungs. 
+          Most airway openers work quickly and can be used to treat an asthma attack. They are sometimes called relievers or rescue bronchodilators."
+
+  utter_side_effects:
+  - text: "Many people focus on the side effects of treatment so much that they forget that poorly treated asthma can also cause side effects. Apart from the (fortunately low) risk of dying from asthma, 
+          there is also a risk that lung function will deteriorate over the years and that you will become disabled by chronic asthma as you age. Children with poorly treated asthma do not grow properly 
+          and pregnant women with poorly controlled asthma have a higher risk of complications, for example poor growth or death of the unborn baby."
+
+  utter_spreadable:
+  - text: "No, asthma is not contagious so it can't spread from person to person."
+
+  utter_garlic:
+  - text: "Garlic has several health benefits, including anti-inflammatory properties. Because asthma is an inflammatory disease, garlic may be able to help relieve your symptoms. However, there is still not enough evidence to claim this fact."
+
+  utter_ginger:
+  - text: "Ginger is another herb that contains anti-inflammatory properties and may help with severe asthma. Oral ginger supplements are linked to an improvement in asthma symptoms. However, there is still not enough evidence to claim this fact."
+
+  utter_honey:
+  - text: "Honey is frequently used in cold remedies to help soothe the throat and reduce coughing. You can mix honey with a hot beverage like herbal tea to provide relief for your symptoms."
+
+  utter_fish:
+  - text: "Omega-3 oils found in fish are shown to have many health benefits. They may also work to decrease airway inflammation and improve lung function in people with severe asthma."
+
+  utter_caffeine:
+  - text: "Caffeine can be effective for people with asthma. It may be able to improve the function of airways for up to four hours after consumption. It can also reduce respiratory muscle fatigue."
+
+  utter_mulethi:
+  - text: "Mulethi is also known as yashtimadhu or liquorice root. A tea made from the root of mulethi might be recommended by your Ayurvedic physician. To make the tea, you should take the root and boil it in water. 
+          Drinking this tea might be helpful for asthma. However, more studies are required to prove the potential effects of mulethi on asthma."
+
+  utter_lavanga:
+  - text: "Clove or lavanga is commonly used in Indian kitchens. It might help with asthma as well. It is used to make a decoction. To make the decoction, you should take the coarse powder of clove, a few tulsi (basil) leaves 
+          and black pepper and boil them in some water. Drinking this preparation might be recommended by your Ayurvedic physician. However, more research is required to back up such claims. 
+          Therefore, please consult a doctor before using it."
+
+  utter_steaming:
+  - text: "Steaming can clear nasal and chest congestion. Steam treatment is not specifically for asthma but it can provide moisture to your respiratory system and clear accumulated mucus."
+
+  utter_onion:
+  - text: "Yes, those suffering from asthma can benefit from onions. This vegetable that makes many cry can be a boon to asthmatics. It has anti-inflammatory properties and helps clear the airways."
+
+  utter_home_remedies:
+  - text: "Garlic, ginger, clove, mulethi, honey, caffeine, omega 3, onion, steaming etc are considered effective home remedies for asthma. However, more research is required to prove their potential use. Moreover, a doctor must be consulted before using these herbs for asthma."
+
+  utter_precautions:
+  - text: "People with asthma need to be careful of their surroundings and must take the following precautions for their well-being:
+          1) know your triggers and avoid them
+          2) avoid smoke of any type
+          3) take your prescribed medications
+          4) keep yourself warm during winters"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
