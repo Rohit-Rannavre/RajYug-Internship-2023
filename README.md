@@ -27,11 +27,6 @@ This repository contains the projects I have done as an AI/ML intern with [RajYu
 
 > [Model](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20for%20FAQ%20on%20Malaria/models/final-model.tar.gz)
 
-> Datasources:
- 
- - [WHO](https://apps.who.int/iris/bitstream/handle/10665/205088/B5046.pdf?sequence=1)
- - [PharmEasy](https://pharmeasy.in/blog/home-remedies-for-malaria-by-dr-siddharth-gupta/)
-
 ***
 
 ### :zap: RASA Chatbot on FAQ for Asthma
@@ -39,12 +34,14 @@ This repository contains the projects I have done as an AI/ML intern with [RajYu
 > [Questions & Answers](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20for%20FAQ%20on%20Asthma/Q%26A%20for%20Asthma.pdf)
 
 > [Model](https://drive.google.com/file/d/1-5ndk_9mnf1U-V0XFgXHa3xI-Gs6y9AK/view?usp=share_link)
+ 
+***
 
-> Datasources:
+### :zap: RASA Chatbot on FAQ for Diabetes
 
- - [Global Initiative for Asthma](https://ginasthma.org/about-us/faqs/)
- - [PharmEasy](https://pharmeasy.in/blog/home-remedies-for-asthma-by-dr-siddharth-gupta/)
- - [Healthline](https://www.healthline.com/health/severe-asthma/natural-remedies#speleotherapy) 
+> [Questions & Answers](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20for%20FAQ%20on%20Diabetes/Q%26A%20for%20Diabetes.pdf)
+
+> Model
 
 ***
 
