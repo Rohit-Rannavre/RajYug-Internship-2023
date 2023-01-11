@@ -34,6 +34,20 @@ This repository contains the projects I have done as an AI/ML intern with [RajYu
 
 ***
 
+### :zap: RASA Chatbot on FAQ for Asthma
+
+> [Questions & Answers](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20for%20FAQ%20on%20Asthma/Q%26A%20for%20Asthma.pdf)
+
+> [Model](https://drive.google.com/file/d/1-5ndk_9mnf1U-V0XFgXHa3xI-Gs6y9AK/view?usp=share_link)
+
+> Datasources:
+
+ - [Global Initiative for Asthma](https://ginasthma.org/about-us/faqs/)
+ - [PharmEasy](https://pharmeasy.in/blog/home-remedies-for-asthma-by-dr-siddharth-gupta/)
+ - [Healthline](https://www.healthline.com/health/severe-asthma/natural-remedies#speleotherapy) 
+
+***
+
 ### :zap: Disease Prediction Based on Symptoms Using Machine Learning
 
 > [Dataset](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Disease%20Prediction%20Based%20on%20Symptoms%20Using%20ML/disease_dataset.csv)
