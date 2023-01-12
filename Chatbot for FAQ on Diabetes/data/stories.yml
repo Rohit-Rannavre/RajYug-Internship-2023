@@ -1,0 +1,687 @@
+version: "3.1"
+
+stories:
+
+- story: intro p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_intro
+  - action: utter_intro
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: intro p 2
+  steps:
+  - intent: diabetes_intro
+  - action: utter_intro
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: intro n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_intro
+  - action: utter_intro
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: intro n 2
+  steps:
+  - intent: diabetes_intro
+  - action: utter_intro
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: types p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_types
+  - action: utter_types
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: types p 2
+  steps:
+  - intent: diabetes_types
+  - action: utter_types
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: types n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_types
+  - action: utter_types
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: types n 2
+  steps:
+  - intent: diabetes_types
+  - action: utter_types
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: type1 p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_type1
+  - action: utter_type1
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: type1 p 2
+  steps:
+  - intent: diabetes_type1
+  - action: utter_type1
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: type1 n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_type1
+  - action: utter_type1
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: type1 n 2
+  steps:
+  - intent: diabetes_type1
+  - action: utter_type1
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: type2 p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_type2
+  - action: utter_type2
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: type2 p 2
+  steps:
+  - intent: diabetes_type2
+  - action: utter_type2
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: type2 n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_type2
+  - action: utter_type2
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: type2 n 2
+  steps:
+  - intent: diabetes_type2
+  - action: utter_type2
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: gestational p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_gestational
+  - action: utter_gestational
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: gestational p 2
+  steps:
+  - intent: diabetes_gestational
+  - action: utter_gestational
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: gestational n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_gestational
+  - action: utter_gestational
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: gestational n 2
+  steps:
+  - intent: diabetes_gestational
+  - action: utter_gestational
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: symptoms p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_symptoms
+  - action: utter_symptoms
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: symptoms p 2
+  steps:
+  - intent: diabetes_symptoms
+  - action: utter_symptoms
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: symptoms n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_gestational
+  - action: utter_gestational
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: symptoms n 2
+  steps:
+  - intent: diabetes_gestational
+  - action: utter_gestational
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: causes p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_causes
+  - action: utter_causes
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: causes p 2
+  steps:
+  - intent: diabetes_causes
+  - action: utter_causes
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: causes n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_causes
+  - action: utter_causes
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: causes n 2
+  steps:
+  - intent: diabetes_causes
+  - action: utter_causes
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: cure p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_cure
+  - action: utter_cure
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: cure p 2
+  steps:
+  - intent: diabetes_cure
+  - action: utter_cure
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: cure n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_cure
+  - action: utter_cure
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: cure n 2
+  steps:
+  - intent: diabetes_cure
+  - action: utter_cure
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: prevention p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_prevention
+  - action: utter_prevention
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: prevention p 2
+  steps:
+  - intent: diabetes_prevention
+  - action: utter_prevention
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: prevention n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_prevention
+  - action: utter_prevention
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: prevention n 2
+  steps:
+  - intent: diabetes_prevention
+  - action: utter_prevention
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: deadly p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_deadly
+  - action: utter_deadly
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: deadly p 2
+  steps:
+  - intent: diabetes_deadly
+  - action: utter_deadly
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: deadly n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_deadly
+  - action: utter_deadly
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: deadly n 2
+  steps:
+  - intent: diabetes_deadly
+  - action: utter_deadly
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: treatment p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_treatment
+  - action: utter_treatment
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: treatment p 2
+  steps:
+  - intent: diabetes_treatment
+  - action: utter_treatment
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: treatment n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_treatment
+  - action: utter_treatment
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: treatment n 2
+  steps:
+  - intent: diabetes_treatment
+  - action: utter_treatment
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: almond p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_almond
+  - action: utter_almond
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: almond p 2
+  steps:
+  - intent: diabetes_almond
+  - action: utter_almond
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: almond n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_almond
+  - action: utter_almond
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: almond n 1
+  steps:
+  - intent: diabetes_almond
+  - action: utter_almond
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: aloevera p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_aloevera
+  - action: utter_aloevera
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: aloevera p 2
+  steps:
+  - intent: diabetes_aloevera
+  - action: utter_aloevera
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: aloevera n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_aloevera
+  - action: utter_aloevera
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: aloevera n 2
+  steps:
+  - intent: diabetes_aloevera
+  - action: utter_aloevera
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: chillipeppers p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_chillipeppers
+  - action: utter_chillipeppers
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: chillipeppers p 2
+  steps:
+  - intent: diabetes_chillipeppers
+  - action: utter_chillipeppers
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: chillipeppers n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_chillipeppers
+  - action: utter_chillipeppers
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: chillipeppers n 2
+  steps:
+  - intent: diabetes_chillipeppers
+  - action: utter_chillipeppers
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: orange p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_orange
+  - action: utter_orange
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: orange p 2
+  steps:
+  - intent: diabetes_orange
+  - action: utter_orange
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: orange n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_orange
+  - action: utter_orange
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: orange n 2
+  steps:
+  - intent: diabetes_orange
+  - action: utter_orange
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: bittergaurd p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_bittergaurd
+  - action: utter_bittergaurd
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: bittergaurd p 2
+  steps:
+  - intent: diabetes_bittergaurd
+  - action: utter_bittergaurd
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: bittergaurd n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_bittergaurd
+  - action: utter_bittergaurd
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: bittergaurd n 2
+  steps:
+  - intent: diabetes_bittergaurd
+  - action: utter_bittergaurd
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: ladyfinger p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_ladyfinger
+  - action: utter_ladyfinger
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: ladyfinger p 2
+  steps:
+  - intent: diabetes_ladyfinger
+  - action: utter_ladyfinger
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: ladyfinger n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_ladyfinger
+  - action: utter_ladyfinger
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: ladyfinger n 2
+  steps:
+  - intent: diabetes_ladyfinger
+  - action: utter_ladyfinger
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: jamun p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_jamun
+  - action: utter_jamun
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: jamun p 2
+  steps:
+  - intent: diabetes_jamun
+  - action: utter_jamun
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: jamun n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_jamun
+  - action: utter_jamun
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: jamun n 2
+  steps:
+  - intent: diabetes_jamun
+  - action: utter_jamun
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: tulsi p 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_tulsi
+  - action: utter_tulsi
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: tulsi p 2
+  steps:
+  - intent: diabetes_tulsi
+  - action: utter_tulsi
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: tulsi n 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes_tulsi
+  - action: utter_tulsi
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: tulsi n 2
+  steps:
+  - intent: diabetes_tulsi
+  - action: utter_tulsi
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye

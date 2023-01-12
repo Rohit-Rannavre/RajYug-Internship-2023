@@ -1,0 +1,156 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - yep
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - good bye
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: diabetes_intro
+  examples: |
+    - what is diabetes
+    - diabetes means what
+    - what does diabetes mean
+
+- intent: diabetes_types
+  examples: |
+    - what are the types of diabetes
+    - what types of diabetes are there
+    - are there different types of diabetes
+
+- intent: diabetes_type1
+  examples: |
+    - what is type 1 diabetes
+    - what is type-1 diabetes
+
+- intent: diabetes_type2
+  examples: |
+    - what is type 2 diabetes
+    - what is type-2 diabetes
+
+- intent: diabetes_gestational
+  examples: |
+    - what is gestational diabetes
+    - gestational diabetes means what
+
+- intent: diabetes_symptoms
+  examples: |
+    - what are the symptoms of diabetes
+    - what are the signs of diabetes
+    - what symptoms are caused by diabetes
+
+- intent: diabetes_causes
+  examples: |
+    - what causes diabetes
+    - what are the causes of diabetes
+    - how diabetes is caused
+    - how does diabetes develop
+
+- intent: diabetes_cure
+  examples: |
+    - can diabetes be cured
+    - is diabetes curable
+
+- intent: diabetes_prevention
+  examples: |
+    - can diabetes be prevented
+    - how diabetes can be prevented
+    - how do you prevent diabetes
+
+- intent: diabetes_deadly
+  examples: |
+    - can diabetes be fatal
+    - is diabetes fatal
+    - can diabetes be deadly
+    - is diabetes deadly
+
+- intent: diabetes_treatment
+  examples: |
+    - how diabetes is treated
+    - what treatment is followed for diabetes
+
+- intent: diabetes_almond
+  examples: |
+    -	how almonds can be useful against diabetes
+    -	how almonds can help fight diabetes
+
+- intent: diabetes_aloevera
+  examples: |
+    -	how aloe vera can be useful against diabetes
+    -	how aloe vera can help fight diabetes
+
+- intent: diabetes_chillipeppers
+  examples: |
+    -	how chilli peppers can be useful against diabetes
+    -	how chilli peppers can help fight diabetes
+
+- intent: diabetes_orange
+  examples: |
+    -	how oranges can be useful against diabetes
+    -	how oranges can help fight diabetes
+
+- intent: diabetes_bittergaurd
+  examples: |
+    - how bitter gourd can be useful against diabetes
+    - how bitter gourd can help fight diabetes
+
+- intent: diabetes_ladyfinger
+  examples: |
+    - how lady's finger can be useful against diabetes
+    - how lady's finger can help fight diabetes
+
+- intent: diabetes_jamun
+  examples: |
+    - how jamun are useful against diabetes
+    - how jamun can help fight diabetes
+
+- intent: diabetes_tulsi
+  examples: |
+    - how tulsi can be useful against diabetes
+    - how tulsi can help fight diabetes
