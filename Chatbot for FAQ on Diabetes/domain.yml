@@ -1,0 +1,262 @@
+version: "3.1"
+
+intents:
+  - greet
+  - affirm
+  - deny
+  - goodbye
+  - diabetes_intro
+  - diabetes_types
+  - diabetes_type1
+  - diabetes_type2
+  - diabetes_gestational
+  - diabetes_symptoms
+  - diabetes_causes
+  - diabetes_cure
+  - diabetes_prevention
+  - diabetes_deadly
+  - diabetes_treatment
+  - diabetes_almond
+  - diabetes_aloevera
+  - diabetes_chillipeppers
+  - diabetes_orange
+  - diabetes_bittergaurd
+  - diabetes_ladyfinger
+  - diabetes_jamun
+  - diabetes_tulsi
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_continue
+  - utter_again
+  - utter_intro
+  - utter_types
+  - utter_type1
+  - utter_type2
+  - utter_gestational
+  - utter_symptoms
+  - utter_causes
+  - utter_cure
+  - utter_prevention
+  - utter_deadly
+  - utter_treatment
+  - utter_almond
+  - utter_aloevera
+  - utter_chillipeppers
+  - utter_orange
+  - utter_bittergaurd
+  - utter_ladyfinger
+  - utter_jamun
+  - utter_tulsi
+
+responses:
+
+  utter_greet:
+  - text: "Hey! I am here to help you with diabetes. You can ask me questions."
+
+  utter_continue:
+  - text: "Want to know more?"
+
+  utter_again:
+  - text: "What else do you wish to know?"
+  
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_intro:
+  - text: "Diabetes is a chronic health condition that affects how your 
+          body turns food into energy. This happens because your 
+          body may not make enough insulin, a hormone the body 
+          makes to lower blood sugar, or it cannot use its insulin 
+          correctly. There are three main types: type 1, type 2 and 
+          gestational diabetes (occurs during pregnancy)."
+
+  utter_types:
+  - text: "There are 3 types of diabetes, type 1, type 2 and gestational diabetes. 
+          1) Type 1 diabetes is thought to be caused by an 
+          autoimmune reaction. This reaction stops your body from 
+          making insulin. Approximately 5-10% of the people who 
+          have diabetes have type 1.
+          2) With type 2 diabetes, your body doesn't use insulin well 
+          and can't keep blood sugar at normal levels. About 90-95% 
+          of people with diabetes have type 2.
+          3) Gestational diabetes develops in pregnant women who 
+          have never had diabetes. If you have gestational diabetes, 
+          your baby could be at higher risk for health problems. 
+          Gestational diabetes usually goes away after your baby is 
+          born. However, it increases your risk for type 2 diabetes 
+          later in life. Your baby is more likely to have obesity as a 
+          child or teen and develop type 2 diabetes later in life."
+
+  utter_type1:
+  - text: "Type 1 diabetes is thought to be caused by an autoimmune 
+          reaction. This reaction stops your body from making 
+          insulin. Approximately 5-10% of the people who have 
+          diabetes have type 1."
+
+  utter_type2:
+  - text: "With type 2 diabetes, your body doesn't use insulin well 
+          and can't keep blood sugar at normal levels. About 90-95% 
+          of people with diabetes have type 2."
+
+  utter_gestational:
+  - text: "Gestational diabetes develops in pregnant women who 
+          have never had diabetes. If you have gestational diabetes, 
+          your baby could be at higher risk for health problems. 
+          Gestational diabetes usually goes away after your baby is 
+          born. However, it increases your risk for type 2 diabetes 
+          later in life. Your baby is more likely to have obesity as a 
+          child or teen and develop type 2 diabetes later in life."
+
+  utter_symptoms:
+  - text: "Diabetes symptoms include: being very thirsty, urinating 
+          often, feeling very hungry, feeling very tired, losing weight 
+          without trying, sores that heal slowly, dry & itchy skin, 
+          feelings of pins and needles in your feet, losing feeling in 
+          your feet, blurry eyesight, hyperglycemia (high blood 
+          sugar), hypoglycemia (low blood sugar).
+
+          Note: Some people with diabetes don't have any of these 
+          signs or symptoms. The only way to know if you have 
+          diabetes is to have your doctor do a blood test."
+
+  utter_causes:
+  - text: "The cause of diabetes, regardless of the type, is having too 
+          much glucose circulating in your bloodstream. However, 
+          the reason why your blood glucose levels are high differs 
+          depending on the type of diabetes.
+
+          1) Causes of Type 1 diabetes: This is an immune system 
+          disease. Your body attacks and destroys insulin-producing 
+          cells in your pancreas. Without insulin to allow glucose to 
+          enter your cells, glucose builds up in your bloodstream. 
+          Genes may also play a role in some patients. Also, a virus 
+          may trigger the immune system attack.
+
+          2) Causes of Type 2 diabetes: Your body's cells don't 
+          allow insulin to work as it should to let glucose into its 
+          cells. Your body's cells have become resistant to insulin. 
+          Your pancreas can't keep up and make enough insulin to 
+          overcome this resistance. Glucose levels rise in your 
+          bloodstream.
+
+          3) Causes gestational diabetes: Hormones produced by the 
+          placenta during your pregnancy make your body's cells 
+          more resistant to insulin. Your pancreas can't make enough 
+          insulin to overcome this resistance. Too much glucose 
+          remains in your bloodstream."
+
+  utter_cure:
+  - text: "No, diabetes cannot be cured but it can only be controlled.
+          This is a disorder either due to defective action or 
+          deficiency of insulin. So when the blood sugar is kept 
+          under control, a diabetic can have a healthy, normal life."
+
+  utter_prevention:
+  - text: "Although diabetes risk factors like family history and race 
+          can't be changed, there are other risk factors that you can 
+          manage, to an extent. Adopting some of the healthy 
+          lifestyle habits listed below can improve these modifiable 
+          risk factors and help to decrease your chances of getting 
+          diabetes:
+          1) Eat a healthy diet. Keep a food diary and calorie count 
+          of everything you eat. Cutting 250 calories per day can 
+          help you lose ½ pound per week.
+          2) Be physically active. Aim for 30 minutes a day at least 
+          five days a week. Start slow and work up to this amount or 
+          break up these minutes into more doable 10-minute 
+          segments. Walking is great exercise.
+          3) Work to achieve a weight that's healthy for you. 
+          4) Lower your stress. Learn relaxation techniques, deep 
+          breathing exercises, mindful meditation, yoga and other 
+          helpful strategies.
+          5) Limit alcohol intake. Men should drink no more than 
+          two beverages containing alcohol a day; women should 
+          drink no more than one.
+          6) Get an adequate amount of sleep (typically 7 to 9 hours).
+          7) Quit smoking.
+          8) Take medications as directed by your healthcare 
+          provider to manage existing risk factors for heart disease 
+          (like high blood pressure, cholesterol) or to reduce the risk 
+          of developing Type 2 diabetes."
+
+  utter_deadly:
+  - text: "Yes, it's possible that if diabetes remains undiagnosed and 
+          unmanaged (severely high or severely low glucose levels) 
+          it can cause devastating harm to your body. Diabetes can 
+          cause heart attack, heart failure, stroke, kidney failure and 
+          coma. These complications can lead to your death. 
+          Cardiovascular disease in particular is the leading cause of 
+          death in adults with diabetes."
+
+  utter_treatment:
+  - text: "Treatments for diabetes depend on your type of diabetes, 
+          how well managed your blood glucose level is and your 
+          other existing health conditions.
+          
+          1) Type 1 diabetes: If you have this type, you must take 
+          insulin every day. Your pancreas no longer makes insulin.
+          
+          2) Type 2 diabetes: If you have this type, your treatments 
+          can include medications (both for diabetes and for 
+          conditions that are risk factors for diabetes), insulin and 
+          lifestyle changes such as losing weight, making healthy 
+          food choices and being more physically active.
+          
+          3) Gestational diabetes: If you have this type and your 
+          glucose level is not too high, your initial treatment might 
+          be modifying your diet and getting regular exercise. If the 
+          target goal is still not met or your glucose level is very 
+          high, your healthcare team may start medication or insulin."
+
+  utter_almond:
+  - text: "Almonds contain good fats that lower insulin resistance. 
+          It is by reducing inflammation in your body's tissues. 
+          These are including those in your brain cells which regulate the metabolism of sugars. 
+          Eating almonds regularly would help control glucose levels."
+
+  utter_aloevera:
+  - text: "Aloe vera has been used for decades as a natural remedy to treat diabetes. 
+          It contains enzymes that regulate blood sugar levels. It also has anti-inflammatory properties. 
+          These can help with insulin resistance."
+
+  utter_chillipeppers:
+  - text: "These peppers are known to be high in antioxidants and capsaicin. This can help regulate blood sugar levels. 
+          They also have thermogenic effects that boost metabolism."
+
+  utter_orange:
+  - text: "Oranges are loaded with vitamin C, fiber, and essential minerals like thiamin that can help to control diabetes. 
+          Oranges are low in the glycemic index; therefore, it makes the glucose slowly release into the blood. 
+          Moreover, eating oranges can help to control weight gain."
+
+  utter_bittergaurd:
+  - text: "Bitter gourd has a compound that is beneficial in lowering 
+           the blood sugar levels. It is loaded with fiber and also 
+           possesses charantin, an antidiabetic compound which 
+           exhibits blood-glucose lowering agents."
+
+  utter_ladyfinger:
+  - text: "Lady's finger is one of the best home remedies for 
+          diabetes. It contains a high amount of vitamin A, C, K and 
+          B6, potassium, magnesium, zinc and other soluble fiber 
+          that makes it as a great blood sugar stabilizer and thereby 
+          treats diabetes."
+
+  utter_jamun:
+  - text: "Jamun is high in vitamin C, iron, calcium, and phosphorus 
+          which help to speed up the immune system. Its seeds are 
+          used to treat diabetes effectively while its leaves and the 
+          extracts of bark are effective in lowering the levels of 
+          blood sugar and sugar or glycosuria in the urine."
+
+  utter_tulsi:
+  - text: "Tulsi contains multiple health beneficial properties such as 
+          antibacterial, anti-stress, antiviral, antifungal, antidiabetic, 
+          antiasthmatic, antioxidant, antitumor, gastric antiulcer, 
+          immune-stimulant, and antimutagenic. Its leaves are very 
+          useful in reducing your blood glucose levels."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
