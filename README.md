@@ -9,6 +9,8 @@
 
 This repository contains the projects I have done as an AI/ML intern with [RajYug IT Solutions Pvt. Ltd.](https://in.linkedin.com/company/rajyug-solutions?original_referer=https%3A%2F%2Fwww.google.com%2F)
 
+- Internship Duration: 2 January 2023 - Present
+
 <br>
 
 <img align="right" src="https://www.insegment.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif" width=300>
@@ -41,7 +43,7 @@ This repository contains the projects I have done as an AI/ML intern with [RajYu
 
 > [Questions & Answers](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20for%20FAQ%20on%20Diabetes/Q%26A%20for%20Diabetes.pdf)
 
-> Model
+> [Model]()
 
 ***
 
