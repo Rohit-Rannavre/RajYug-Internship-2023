@@ -1,0 +1,763 @@
+version: "3.1"
+
+stories:
+
+- story: intro positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_intro 
+  - action: utter_intro
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: intro positive 2
+  steps:
+  - intent: cp_intro 
+  - action: utter_intro
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: intro negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_intro 
+  - action: utter_intro
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: intro negative 2
+  steps:
+  - intent: cp_intro 
+  - action: utter_intro
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: causes positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_causes 
+  - action: utter_causes
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: causes positive 2
+  steps:
+  - intent: cp_causes 
+  - action: utter_causes
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: causes negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_causes 
+  - action: utter_causes
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: causes negative 2
+  steps:
+  - intent: cp_causes 
+  - action: utter_causes
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: spreadable positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_spreadable 
+  - action: utter_spreadable
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: spreadable positive 2
+  steps:
+  - intent: cp_spreadable 
+  - action: utter_spreadable
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: spreadable negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_spreadable 
+  - action: utter_spreadable
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: spreadable negative 2
+  steps:
+  - intent: cp_spreadable 
+  - action: utter_spreadable
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: infect positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_infect 
+  - action: utter_infect
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: infect positive 2
+  steps:
+  - intent: cp_infect 
+  - action: utter_infect
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: infect negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_infect 
+  - action: utter_infect
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: infect negative 2
+  steps:
+  - intent: cp_infect 
+  - action: utter_infect
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: symptoms positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_symptoms 
+  - action: utter_symptoms
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: symptoms positive 2
+  steps:
+  - intent: cp_symptoms 
+  - action: utter_symptoms
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: symptoms negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_symptoms 
+  - action: utter_symptoms
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: symptoms negative 2
+  steps:
+  - intent: cp_symptoms 
+  - action: utter_symptoms
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: shingles positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_shingles 
+  - action: utter_shingles
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: shingles positive 2
+  steps:
+  - intent: cp_shingles 
+  - action: utter_shingles
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: shingles negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_shingles 
+  - action: utter_shingles
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: shingles negative 2
+  steps:
+  - intent: cp_shingles 
+  - action: utter_shingles
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: prevent positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_prevent 
+  - action: utter_prevent
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: prevent positive 2
+  steps:
+  - intent: cp_prevent 
+  - action: utter_prevent
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: prevent negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_prevent 
+  - action: utter_prevent
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: prevent negative 2
+  steps:
+  - intent: cp_prevent 
+  - action: utter_prevent
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: vaccine effects positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_vaccine_effects 
+  - action: utter_vaccine_effects
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: vaccine effects positive 2
+  steps:
+  - intent: cp_vaccine_effects 
+  - action: utter_vaccine_effects
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: vaccine effects negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_vaccine_effects 
+  - action: utter_vaccine_effects
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: vaccine effects negative 2
+  steps:
+  - intent: cp_vaccine_effects 
+  - action: utter_vaccine_effects
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: likelihood positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_likelihood 
+  - action: utter_likelihood
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: likelihood positive 2
+  steps:
+  - intent: cp_likelihood 
+  - action: utter_likelihood
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: likelihood negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_likelihood 
+  - action: utter_likelihood
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: likelihood negative 2
+  steps:
+  - intent: cp_likelihood 
+  - action: utter_likelihood
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: home remedies positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_home_remedies 
+  - action: utter_home_remedies
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: home remedies positive 2
+  steps:
+  - intent: cp_home_remedies 
+  - action: utter_home_remedies
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: home remedies negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_home_remedies 
+  - action: utter_home_remedies
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: home remedies negative 2
+  steps:
+  - intent: cp_home_remedies 
+  - action: utter_home_remedies
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: aloevera positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_aloevera 
+  - action: utter_aloevera
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: aloevera positive 2
+  steps:
+  - intent: cp_aloevera 
+  - action: utter_aloevera
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: aloevera negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_aloevera 
+  - action: utter_aloevera
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: aloevera negative 2
+  steps:
+  - intent: cp_aloevera 
+  - action: utter_aloevera
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: neem positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_neem 
+  - action: utter_neem
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: neem positive 2
+  steps:
+  - intent: cp_neem 
+  - action: utter_neem
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: neem negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_neem 
+  - action: utter_neem
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: neem negative 2
+  steps:
+  - intent: cp_neem 
+  - action: utter_neem
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: lemon positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_lemon 
+  - action: utter_lemon
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: lemon positive 2
+  steps:
+  - intent: cp_lemon 
+  - action: utter_lemon
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: lemon negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_lemon 
+  - action: utter_lemon
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: lemon negative 2
+  steps:
+  - intent: cp_lemon 
+  - action: utter_lemon
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: herbal tea positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_herbal_tea 
+  - action: utter_herbal_tea
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: herbal tea positive 2
+  steps:
+  - intent: cp_herbal_tea 
+  - action: utter_herbal_tea
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: herbal tea negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_herbal_tea 
+  - action: utter_herbal_tea
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: herbal tea negative 2
+  steps:
+  - intent: cp_herbal_tea 
+  - action: utter_herbal_tea
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: honey positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_honey 
+  - action: utter_honey
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: honey positive 2
+  steps:
+  - intent: cp_honey 
+  - action: utter_honey
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: honey negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_honey 
+  - action: utter_honey
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: honey negative 2
+  steps:
+  - intent: cp_honey 
+  - action: utter_honey
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: ginger positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_ginger 
+  - action: utter_ginger
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: ginger positive 2
+  steps:
+  - intent: cp_ginger 
+  - action: utter_ginger
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: ginger negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_ginger 
+  - action: utter_ginger
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: ginger negative 2
+  steps:
+  - intent: cp_ginger 
+  - action: utter_ginger
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: soda positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_soda 
+  - action: utter_soda
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: soda positive 2
+  steps:
+  - intent: cp_soda 
+  - action: utter_soda
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: soda negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_soda 
+  - action: utter_soda
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: soda negative 2
+  steps:
+  - intent: cp_soda 
+  - action: utter_soda
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: calamine positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_calamine 
+  - action: utter_calamine
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: calamine positive 2
+  steps:
+  - intent: cp_calamine 
+  - action: utter_calamine
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: calamine negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_calamine 
+  - action: utter_calamine
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: calamine negative 2
+  steps:
+  - intent: cp_calamine 
+  - action: utter_calamine
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: cold compress positive 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_cold_compress 
+  - action: utter_cold_compress
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: cold compress positive 2
+  steps:
+  - intent: cp_cold_compress 
+  - action: utter_cold_compress
+  - action: utter_continue
+  - intent: affirm
+  - action: utter_again
+
+- story: cold compress negative 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_happy
+  - action: utter_mood_happy
+  - intent: cp_cold_compress 
+  - action: utter_cold_compress
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye
+
+- story: cold compress negative 2
+  steps:
+  - intent: cp_cold_compress 
+  - action: utter_cold_compress
+  - action: utter_continue
+  - intent: deny
+  - action: utter_goodbye

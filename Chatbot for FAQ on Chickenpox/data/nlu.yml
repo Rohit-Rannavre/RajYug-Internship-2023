@@ -1,0 +1,227 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hey there
+    - hello
+    - hello there
+    - hi
+    - hi there
+    - good morning
+    - goodmorning
+    - morning
+    - good afternoon
+    - goodafternoon
+    - afternoon
+    - noon
+    - good evening
+    - goodevening
+    - evening
+    - whats up
+
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - yep
+    - y
+    - indeed
+    - of course
+    - sounds good
+    - sounds great
+    - correct
+    - sure
+    - why not
+    - ok
+    - okey
+
+- intent: deny
+  examples: |
+    - no
+    - nope
+    - na
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: goodbye
+  examples: |
+    - bye
+    - bye bye
+    - by by
+    - good bye
+    - good by
+    - see you later
+    - see you around
+    - cu later
+    - cee you later
+    - have a nice day
+
+- intent: mood_happy
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - you bot
+    - you a bot
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - i am talking to a bot
+    - i am talking to a human
+
+- intent: cp_intro
+  examples: |
+    - what is chickenpox
+    - chickenpox means what
+    - tell me about chickenpox
+
+- intent: cp_causes
+  examples: |
+    - what causes chickenpox
+    - what is the cause of chickenpox
+    - how do you get chickenpox
+
+- intent: cp_spreadable
+  examples: |
+    - how does chickenpox spread
+    - is chickenpox contagious
+    - can chickenpox spread from person to person
+
+- intent: cp_infect
+  examples: |
+    - what if i get chickenpox
+    - what should i do if i get chickenpox
+
+- intent: cp_symptoms
+  examples: |
+    - what are the symptoms of chickenpox
+    - what are the signs of chickenpox
+
+- intent: cp_shingles
+  examples: |
+    - how are chickenpox and shingles related
+    - is shingles related to chickenpox
+    - what is shingles
+    - what are the symptoms of shingles
+    - what are the signs of shingles
+
+- intent: cp_prevent
+  examples: |
+    - can chickenpox be prevented
+    - how do you prevent from chickenpox
+    - can you prevent chickenpox
+    - how to prevent chickenpox
+
+- intent: cp_vaccine_effects
+  examples: |
+    - what are the chickenpox vaccine side effects
+    - can the chickenpox vaccine have side effects
+
+- intent: cp_likelihood
+  examples: |
+    - who gets chickenpox
+    - who is likely to get chickenpox
+    - who is vulnerable to chickenpox
+
+- intent: cp_home_remedies
+  examples: |
+    - what home remedies can be used against chickenpox
+    - are there home remedies for chickenpox
+    - what are the home remedies for chickenpox
+
+- intent: cp_aloevera
+  examples: |
+    - how aloe vera can help against chickenpox
+    - how does aloe vera help fight chickenpox
+    - is aloe vera effective against chickenpox
+    - how aloe vera is effective against chickenpox
+
+- intent: cp_neem
+  examples: |
+    - how neem can help against chickenpox
+    - how does neem help fight chickenpox
+    - is neem effective against chickenpox
+    - how neem is effective against chickenpox
+
+- intent: cp_lemon
+  examples: |
+    - how lemon juice can help against chickenpox
+    - is lemon juice effective against chickenpox
+    - how lemon juice is effective against chickenpox
+
+- intent: cp_herbal_tea
+  examples: |
+    - how herbal tea help against chickenpox
+    - is herbal tea effective against chickenpox
+    - how herbal tea is effective against chickenpox
+
+- intent: cp_honey
+  examples: |
+    - how honey can help against chickenpox
+    - is honey effective against chickenpox
+    - how honey is effective against chickenpox
+
+- intent: cp_ginger
+  examples: |
+    - how ginger can help against chickenpox
+    - is ginger effective against chickenpox
+    - how ginger is effective against chickenpox
+
+- intent: cp_soda
+  examples: |
+    - how soda can help against chickenpox
+    - how baking soda can help against chickenpox
+    - how soda is helpful against chickenpox
+    - how baking soda is helpful against chickenpox
+    - how soda is useful against chickenpox
+    - how baking soda is useful against chickenpox
+    - is baking soda effective against chickenpox
+    - how baking soda is effective against chickenpox
+
+- intent: cp_calamine
+  examples: |
+    - how calamine lotion can help against chickenpox
+    - is calamine lotion effective against chickenpox
+    - how calamine lotion is effective against chickenpox
+
+- intent: cp_cold_compress
+  examples: |
+    - how cold compress can help
+    - is cold compress effective against chickenpox
+    - how cold compress is effective against chickenpox
