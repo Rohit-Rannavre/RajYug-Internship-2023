@@ -45,6 +45,14 @@ This repository contains the projects I have done as an AI/ML intern with [RajYu
 
 ***
 
+### :zap: RASA Chatbot on FAQ for Chickenpox
+
+> [Questions & Answers](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20for%20FAQ%20on%20Chickenpox/Q%26A%20for%20Chickenpox.pdf)
+
+> [Model]()
+
+***
+
 ### :zap: Disease Prediction Based on Symptoms Using Machine Learning
 
 > [Dataset](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Disease%20Prediction%20Based%20on%20Symptoms%20Using%20ML/disease_dataset.csv)
