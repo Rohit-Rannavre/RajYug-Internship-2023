@@ -1,0 +1,218 @@
+version: "3.1"
+
+intents:
+  - greet
+  - affirm
+  - deny
+  - goodbye
+  - mood_happy
+  - mood_unhappy
+  - bot_challenge
+  - cp_intro
+  - cp_causes
+  - cp_spreadable
+  - cp_infect
+  - cp_symptoms
+  - cp_shingles
+  - cp_prevent
+  - cp_vaccine_effects
+  - cp_likelihood
+  - cp_home_remedies
+  - cp_aloevera
+  - cp_neem
+  - cp_lemon
+  - cp_herbal_tea
+  - cp_honey
+  - cp_ginger
+  - cp_soda
+  - cp_calamine
+  - cp_cold_compress
+
+actions:
+  - utter_greet
+  - utter_mood_happy
+  - utter_mood_unhappy
+  - utter_continue
+  - utter_again
+  - utter_goodbye
+  - utter_iamabot
+  - utter_intro
+  - utter_causes
+  - utter_spreadable
+  - utter_infect
+  - utter_symptoms
+  - utter_shingles
+  - utter_prevent
+  - utter_vaccine_effects
+  - utter_likelihood
+  - utter_home_remedies
+  - utter_aloevera
+  - utter_neem
+  - utter_lemon
+  - utter_herbal_tea
+  - utter_honey
+  - utter_ginger
+  - utter_soda
+  - utter_calamine
+  - utter_cold_compress
+
+responses:
+  utter_greet:
+  - text: "Hey! how are you?"
+
+  utter_mood_happy:
+  - text: "Great to know! I am here to help you with chickenpox. You can ask me your question."
+
+  utter_mood_unhappy:
+  - text: "Don't worry, I am here to help you with chickenpox. You can ask me your question."
+
+  utter_continue:
+  - text: "Want to know more?"
+
+  utter_again:
+  - text: "What else do you wish to know?"
+
+  utter_goodbye:
+  - text: "Happy to help, bye!"
+
+  utter_iamabot:
+  - text: "I am a bot."
+
+  utter_intro:
+  - text: "Chickenpox is a highly contagious disease caused 
+          by the varicella zoster virus. The virus usually 
+          infects children, however adults who were not 
+          infected as children can also become infected if 
+          exposed to the virus."
+
+  utter_causes:
+  - text: "Chickenpox is a disease caused by the varicella zoster virus."
+
+  utter_spreadable:
+  - text: "Chickenpox is highly contagious. It spreads from 
+          person to person by direct contact or through the 
+          air by coughing or sneezing. It can also be spread 
+          through direct contact with the fluid from a blister 
+          of a person infected with chickenpox, or from 
+          direct contact with a sore from a person with 
+          shingles."
+
+  utter_infect:
+  - text: "If you get chickenpox, let your doctor know right 
+          away. Two shots of the vaccine and prescribed 
+          medication will be enough to treat it. Besides, 
+          you can also take some home remedies."
+
+  utter_symptoms:
+  - text: "The most common symptoms of chickenpox are:
+          rash, fever, coughing, fussiness, headache, and 
+          loss of appetite. The rash usually develops on the 
+          scalp and body, and then spreads to the face, 
+          arms, and legs. The illness lasts about 5 to 10 days."
+
+  utter_shingles:
+  - text: "Both chickenpox and shingles are caused by the 
+          same virus. After a person has had chickenpox, 
+          the virus remains in the body permanently, but 
+          silently. About one-third of all people who have 
+          been infected with chickenpox later develop the 
+          disease known as shingles (herpes zoster). 
+          Symptoms of shingles are pain, itching, blisters, 
+          and loss of feeling along a nerve. Most cases 
+          occur in people older than 50, and the risk of 
+          developing shingles increases with age."
+
+  utter_prevent:
+  - text: "Yes, chickenpox is preventable. The best way to 
+          prevent chickenpox is to get the chickenpox 
+          vaccine. Everyone—children, adolescents, and 
+          adults—should get two doses of chickenpox 
+          vaccine if they have never had chickenpox or 
+          were never vaccinated."
+
+  utter_vaccine_effects:
+  - text: "The chickenpox vaccine, like any other 
+          medication is not without associated side-effects. 
+          Any that are to be expected, are relatively mild 
+          though. Once you receive the vaccine you may 
+          experience temporary inflammation (redness) and 
+          swelling at the injection site, and a little pain. 
+          Some may even develop a little bit of a mild rash
+          or low-grade fever. All side effects typically clear 
+          in a short period of time."
+
+  utter_likelihood:
+  - text: "Anyone who has never had the disease or has not 
+          received the chickenpox vaccine can get 
+          chickenpox. Chickenpox is commonly diagnosed 
+          in young children, although teens and adults can 
+          get the disease also. Chickenpox can occur in 
+          vaccinated persons. These persons usually have 
+          mild symptoms for a shorter amount of time, with 
+          fewer than 50 blisters, and low or no fever."
+
+  utter_home_remedies:
+  - text: "Home remedies for chickenpox include: aloe 
+          vera, neem, lemon juice, herbal tea, honey, 
+          ginger, baking soda, calamine lotion, and cold 
+          compress."
+
+  utter_aloevera:
+  - text: "Aloe vera gel soothes and cools inflamed and 
+          itchy skin during chickenpox. It moisturizes the 
+          skin, has anti-inflammatory properties, and helps 
+          reduce the itching."
+
+  utter_neem:
+  - text: "The neem tree is loaded with antiviral and 
+          antibacterial properties. It gives instant itch relief. 
+          This potent ointment also dries the blisters, 
+          thereby accelerating the healing process."
+
+  utter_lemon:
+  - text: "Lime juice contains vitamin C and antioxidants 
+          that speed up the healing process of the chickenpox scars and rashes."
+
+  utter_herbal_tea:
+  - text: "Herbal teas like chamomile, basil, and lemon 
+          have a multitude of medicinal properties. They 
+          regulate the gastrointestinal system and boost 
+          immunity. Their anti-inflammatory compounds 
+          and antioxidants aid quick recovery from 
+          chickenpox."
+
+  utter_honey:
+  - text: "Applying honey is a natural humectant and the 
+          best remedy for those itchy sores and lesions. It 
+          will not only reduce the urge to scratch but also 
+          help to reduce scarring."
+
+  utter_ginger:
+  - text: "Ginger has anti-inflammatory and antimicrobial 
+          properties. The chickenpox scabs and rashes will 
+          start healing, and the itching will greatly reduce 
+          with this remedy. Just take 2-3 tablespoons ginger 
+          powder and add this to your bath water and soak 
+          in it for 20 minutes."
+
+  utter_soda:
+  - text: "Baking soda soothes the itchy and inflamed 
+          rashes on your skin. It is also antimicrobial in 
+          nature and helps in faster recovery from the 
+          infection. Alternatively, you can also add an 
+          antiseptic liquid like Dettol or Savlon to the bath 
+          and soak in it for a couple of minutes."
+
+  utter_calamine:
+  - text: "Calamine lotion is a mixture of zinc oxide and 
+          calamine. Gently applying it to the sores on the 
+          skin may help soothe itching."
+
+  utter_cold_compress:
+  - text: "Cold compresses can be very effective. Just wrap 
+          an ice pack in a towel and gently apply it to itchy 
+          skin soothe the itch."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
