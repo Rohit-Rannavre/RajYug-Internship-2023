@@ -7,7 +7,11 @@
 ![](https://img.shields.io/badge/Rasa-5A17EE.svg?style=for-the-badge&logo=Rasa&logoColor=white)
 ![](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white)
 
-This repository contains the projects I have done as an AI/ML intern with [RajYug IT Solutions Pvt. Ltd.](https://in.linkedin.com/company/rajyug-solutions?original_referer=https%3A%2F%2Fwww.google.com%2F)
+This repository contains the projects I did as an AI/ML intern with [RajYug IT Solutions Pvt. Ltd.](https://in.linkedin.com/company/rajyug-solutions?original_referer=https%3A%2F%2Fwww.google.com%2F)
+
+- **Internship Role**: AI/ML Intern
+- **Internship Duration**: January, 2023 to February, 2023
+- **Internship Mode**: Virtual
 
 <br>
 
