@@ -3,9 +3,11 @@
 # :star: RajYug Internship [2023]
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![](https://img.shields.io/badge/Rasa-5A17EE.svg?style=for-the-badge&logo=Rasa&logoColor=white)
 ![](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white)
+![](https://img.shields.io/badge/Google%20Colab-F9AB00.svg?style=for-the-badge&logo=Google-Colab&logoColor=white)
 
 This repository contains the projects I did as an AI/ML intern with [RajYug IT Solutions Pvt. Ltd.](https://in.linkedin.com/company/rajyug-solutions?original_referer=https%3A%2F%2Fwww.google.com%2F)
 
