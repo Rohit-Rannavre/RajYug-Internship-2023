@@ -1,5 +1,8 @@
 <img align="right" src="https://c.smartrecruiters.com/sr-company-logo-prod-dc5/5e26eb2db439962cf843d9e8/huge?r=s3-eu-central-1&_1579609112432" width="200">
 
+<!---Survesh: 9823335299-->
+<!---Rajyug: +91 2046009797-->
+
 # :star: RajYug Internship [2023]
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
