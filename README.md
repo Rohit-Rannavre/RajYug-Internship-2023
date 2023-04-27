@@ -20,8 +20,6 @@ This repository contains the projects I did as an AI/ML intern with [RajYug IT S
 
 <br>
 
-<img align="right" src="https://www.insegment.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif" width=300>
-
 ### :zap: RASA Chatbot on FAQ for Anxiety
 
 > [Questions & Answers](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Chatbot%20for%20FAQ%20on%20Anxiety/Q%26A%20for%20Anxiety.pdf)
