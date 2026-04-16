@@ -1,5 +1,3 @@
-<img align="right" src="https://c.smartrecruiters.com/sr-company-logo-prod-dc5/5e26eb2db439962cf843d9e8/huge?r=s3-eu-central-1&_1579609112432" width="200">
-
 <!---Survesh: 9823335299-->
 <!---Rajyug: +91 2046009797-->
 
@@ -65,9 +63,3 @@ This repository contains the projects I did as an AI/ML intern with [RajYug IT S
 > [Dataset](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Disease%20Prediction%20Based%20on%20Symptoms%20Using%20ML/disease_dataset.csv)
 
 > [Python Code](https://github.com/Rohit-Rannavre/RajYug-Internship-2023/blob/main/Disease%20Prediction%20Based%20on%20Symptoms%20Using%20ML/disease_prediction.ipynb)
-
-<br>
-
-### ***Let's connect:*** 
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohit-rannavre) 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rohit.rannavre@gmail.com) 
